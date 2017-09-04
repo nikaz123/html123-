@@ -1,0 +1,25 @@
+   /*#positionTest {top: 400px;
+               left: 200px;
+               positio: relative;
+             }
+
+#positionTest a{
+    position: absolute
+    top  -50px;
+    left -100px;
+
+
+}
+*/
+#positionTest {
+    height: 500px;
+    background-image: url("images/large/img-01.jpg") no-repeat;
+
+
+}
+   #positionTest a{
+       display: block;
+       width: 50%;
+       height: 50%;
+       background: rgba(255, 255, 0.3);
+   }
