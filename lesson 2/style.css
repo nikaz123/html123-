@@ -1,25 +1,36 @@
-   /*#positionTest {top: 400px;
-               left: 200px;
-               positio: relative;
+
+#positionTest {background-image: url("images/small/img-03.jpg")}
+  #positionTest {
+
+    background-size:  auto;
+                 }
+
+
+
+   #positionTest { position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
              }
 
-#positionTest a{
-    position: absolute
-    top  -50px;
-    left -100px;
+
+ /*   #positionTest a{
+    position: absolute;
+    top:  -50px;
+    left: -100px;
+               }  */
 
 
-}
-*/
-#positionTest {
+  /* #positionTest {
     height: 500px;
     background-image: url("images/large/img-01.jpg") no-repeat;
+                  }  */
 
 
-}
-   #positionTest a{
+   /*  #positionTest a{
        display: block;
        width: 50%;
        height: 50%;
        background: rgba(255, 255, 0.3);
-   }
+                   }  */
