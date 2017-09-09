@@ -1,0 +1,36 @@
+   /* .menu-item {
+    color: blue;
+    display: block;
+
+}
+   .menu-item:first-of-type {
+    color: yellow;
+}
+
+    .menu-item:last-of-type {
+    color: red;
+}
+    .menu ul {
+        margin:0;
+        padding: 0;
+list-style-type: none;
+    }*/
+
+    .menu li {
+        border: 1px solid red;
+       /* border-bottom: none;*/
+        background-color: gray;
+    }
+
+   .menu li+li {margin-top: -1px;}
+
+
+.menu li:last-child{border-bottom: 1px solid #999 }
+
+   .menu li:hover a { color: yellow;}
+
+   .menu li a{
+        display: block;
+        text-decoration: none;
+    }
+ #mainMenu:target {width: 50%;}
