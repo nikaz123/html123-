@@ -16,10 +16,10 @@
 list-style-type: none;
     }*/
 
-    .menu li {
+ /*   .menu li {
         border: 1px solid red;
        /* border-bottom: none;*/
-        background-color: gray;
+       /* background-color: gray;
     }
 
    .menu li+li {margin-top: -1px;}
@@ -33,4 +33,17 @@ list-style-type: none;
         display: block;
         text-decoration: none;
     }
- #mainMenu:target {width: 50%;}
+ #mainMenu:target {width: 50%;}*/
+
+
+
+
+:required {
+    border-color: green;
+}
+   :optional { border-color: gray;}
+
+
+   :invalid { border-color: red;
+
+   }
