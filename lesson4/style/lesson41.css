@@ -1,0 +1,42 @@
+/*.checkbox-group input {
+    opacity: 0;
+
+}
+
+.checkbox-group input:not(:checked) + label::before {
+    content: "no";
+}
+
+.checkbox-group label::before {
+    content: "yes";
+    background-color: yellow;
+    padding: 5px;
+    margin: 5px;
+    width: 30px;
+    border: solid;
+
+}*/
+
+
+.menu
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 2px solid red;
+    width: 550px;
+    text-align: center;
+    background-color: white;
+
+}
+#item li { display: inline-block; }
+#item a {
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+}
+#item a:hover {
+    background-color: blue;
+}
