@@ -1,0 +1,96 @@
+ul {width: 250px;
+    height: 1640px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    background: black;
+display: block}
+.menuItem {
+
+    width: 30%;
+    height: 20px;
+    background: black;
+}
+
+.subItem {
+    display: none;
+    position: absolute;
+    top: 0;
+    left:300px;
+    width:200px;
+    height: 40px;
+;
+}
+
+
+.menuItem:focus ~ .subItem {
+    display: block;
+}
+
+
+li span {color: white;}  /* Цвет текста */
+
+
+a {text-decoration: none; } /* Убираем подчеркивание в названиях пунктов меню */
+
+li {
+padding-left: 50px;
+    width: 180px;
+    height: 40px;
+    margin: 0px;
+}
+
+
+
+#one:before {
+    content: "   ";
+    /* content: "¶ ";*/
+    display: block;
+    height: 16px;
+    width: 16px;
+    float: left;
+    position: relative;
+    background: url(../images/text_signature.png);
+}
+
+#two:before {
+    content: "   ";
+    /* content: "¶ ";*/
+    display: block;
+    height: 16px;
+    width: 16px;
+    float: left;
+    position: relative;
+    background: url(../images/eye.png);
+}
+#three:before {
+    content: "   ";
+    /* content: "¶ ";*/
+    display: block;
+    height: 16px;
+    width: 16px;
+    float: left;
+    position: relative;
+    background: url(../images/telephone_key.png);
+}
+#four:before {
+    content: "   ";
+    /* content: "¶ ";*/
+    display: block;
+    height: 16px;
+    width: 16px;
+    float: left;
+    position: relative;
+    background: url(../images/zoom_out.png);
+}
+/*
+#first {
+    display: block;*/
+
+
+
+
+[target=_blank]:after {
+    content: "\2197";  /* Добавляется стрелка после facebook, те элементы у которых есть targetblank*/
+    color: white;
+}

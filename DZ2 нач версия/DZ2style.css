@@ -1,0 +1,65 @@
+.menu {
+    background-color: black; /* Цвет фона слоя */
+   /* padding: 5px; /* Поля вокруг текста */
+    float: left; /* Обтекание по правому краю */
+    width: 28%; /* Ширина слоя */
+    height: 1710px;
+
+}
+.white {
+    background-color: #fffcf3; /* Цвет фона слоя */
+    padding: 5px; /* Поля вокруг текста */
+    width: 50%; /* Ширина слоя */
+    float: left; /* Обтекание по правому краю */
+
+}
+
+.main {
+    background-color: #fffcf3; /* Цвет фона слоя */
+    padding: 5px; /* Поля вокруг текста */
+    width: 50%; /* Ширина слоя */
+    float: left; /* Обтекание по правому краю */
+    display: none;
+
+}
+
+li:before {
+    content: "   ";
+    /* content: "¶ ";*/
+    display: block;
+    height: 16px;
+    width: 16px;
+    float: left;
+    position: relative;
+
+}
+li span {
+    color: white; /* Цвет текста */ }
+
+
+a    {    text-decoration: none; } /* Убираем подчеркивание в названиях пунктов меню */
+
+li {      list-style: none; /* Убираем исходные маркеры */ }
+
+#one:before {  background: url(../DZ2/images/text_signature.png); }
+
+#two:before {
+    background: url(../DZ2/images/eye.png);
+}
+#three:before {
+    background: url(../DZ2/images/telephone_key.png);
+}
+#four:before {
+    background: url(../DZ2/images/zoom_out.png);
+}
+[target=_blank]:after {
+    content: "\2197";  /* Добавляется стрелка после facebook, те элементы у которых есть targetblank*/
+    color: white;
+}
+
+/*input[type="checkbox"]  {
+    display: none}*/
+
+input:focus ~ .main{
+    display:block;
+}
