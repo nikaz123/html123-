@@ -21,8 +21,9 @@ float: left;}
     float: left;
     clear: both;
     display: block;
-}
 
+}
+/*
 .left {
     float: left;
     width: 250px;
