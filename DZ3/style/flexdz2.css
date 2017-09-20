@@ -1,0 +1,57 @@
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: stretch;
+
+}
+
+.yellow  {
+    display: flex;
+    height: 100%;
+    background-color: yellow;
+    width: 600px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+  .four-color{
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.red-white {
+    display: flex;
+    width: 100%;
+    height: calc(100% - 600px);
+}
+
+ .blue {
+    height: 400px;
+    background-color: blue;
+    align-self: stretch;
+    width: 100%;
+}
+
+ .red {
+
+    background-color: red;
+    width: 200px;
+    height: 100%;
+}
+
+  .green {
+    height: 200px;
+    background-color: green;
+    align-self: flex-end;
+    width: 100%;
+}
+
+.white {
+width: 90%;
+height: 100%;
+
+}
