@@ -1,0 +1,83 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#mainContent {
+    display: grid;
+    grid-template-rows: 60px 30px 1fr 100px; /*вписать начало и конец зон*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100%;
+
+    grid-template-areas: "aside header1 header1 header2"
+                          "aside section section section"
+                           "nav section section section"
+                          "footer1 footer1 footer2 footer2";
+
+}
+.header1 {
+    background-color: blue;
+    grid-area: /*1/2/2/5*/ header1;
+}
+
+.header2 {
+    background-color: #67ff38;
+    grid-area: /*1/2/2/5*/ header2;
+}
+
+    /*grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;*/
+
+
+
+#mainContent nav {
+    background-color: #f5280a;
+
+    grid-area: /*2/2/3/5*/ nav;
+
+
+    /* grid-column-start: 1;
+     grid-column-end: 2;
+     grid-row-start: 1;
+     grid-row-end: 3;*/
+}
+#mainContent aside {
+    background-color: coral;
+
+    grid-area: /*1/1/4/2*/ aside;
+
+    /*grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;*/
+}
+#mainContent section {
+    background-color: darkgreen ;
+
+    grid-area: section /*3/2/4/5*/;
+
+
+    /* grid-column-start: 2;
+     grid-column-end: 3;
+     grid-row-start: 2;
+     grid-row-end: 3;*/
+}
+
+
+.footer1 {
+    background-color: yellow;
+    grid-area: /*4/1/5/3*/ footer1;
+}
+.footer2 {
+    background-color: #e55aff;
+    grid-area: /*4/3/5/4*/ footer2;
+}
+
+    /* grid-column-start: 1;
+     grid-column-end: 4;
+     grid-row-start: 3;
+     grid-row-end: 4;*/
