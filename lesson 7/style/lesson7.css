@@ -1,1 +1,26 @@
 @import "style7.css";
+
+
+h1 {
+
+    font: bold 330%/100% Georgia, "Century Schoolbook L", Serif;;
+
+    position: relative;
+
+    color: #464646;
+
+}
+
+h1 span {
+
+    background: url(FF4D00-0.8.png) repeat-x;
+
+    position: absolute;
+
+    display: block;
+
+    width: 100%;
+
+    height: 31px;
+
+}
