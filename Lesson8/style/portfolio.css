@@ -1,0 +1,12 @@
+#portfolio {
+
+    --columns-count: 3;
+
+
+    padding: var(--d);
+    display: grid;
+    grid-gap: var(--d);
+    box-sizing: border-box;
+    grid-template-columns: repeat(var(--columns-count), calc((100%-(var(--columns-count-1)*var(--d)))/var(--columns-count)));
+
+}
