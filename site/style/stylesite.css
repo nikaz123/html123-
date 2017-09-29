@@ -7,17 +7,21 @@ html, body {
 
 #mainContent {
     display: grid;
-    grid-template-rows: 90px 150px 300px 30px 1fr 1fr 1fr 1fr 40px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 100%;
+    grid-template-rows: 90px 150px 500px 926px 400px 400px 100px;
+    grid-template-columns: 25% 25% 25% 25%;
+
 
     grid-template-areas: "header1 header1 header1 header1"
                          "name name name name"
                          "portfolio1 portfolio1 portfolio2 portfolio2"
-                         "menu menu menu menu";
-                         "footer1 footer1 footer1 footer1"
+                         "section1 section1 section2 section2"
+                         "contacts contacts contacts contacts"
+                         "photo photo photo photo"
+                         "footer1 footer1 footer1 footer1";
+
 
 }
+
 #mainContent .header1 {
     background-color: rgba(6,30,32,1);
     grid-area:  header1;}
@@ -28,8 +32,18 @@ html, body {
     font-size: 30px;
     font-family: "Times New Roman";
     font-style: italic;
-    position: relative; top: 15px; left: 2000px;
+    position: relative; top: 15px; left: 1800px;
     }
+
+/*.header1:before {
+    content: "   ";
+    /* content: "¶ ";*/
+    /*display: block;
+    height: 16px;
+    width: 16px;
+    float: left;
+    position: relative;
+    background: url(../images/f.png);}  */
 
 #mainContent .header1 a {
     text-decoration: none;
@@ -42,11 +56,11 @@ html, body {
 
 #mainContent #name h1 {
     color: white;
-    position: relative;
+    position: absolute;
     top: 5px;
-    left: 250px;
+    left: 350px;
     font-size: 70px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 
@@ -54,8 +68,15 @@ html, body {
     background-color: rgba(56,42,35,1);
     grid-area:  portfolio1;}
 
-#mainContent #portfolio1 a {
-    position: relative; top: 15px; left: 250px;
+#mainContent #portfolio1 a img {
+   position: relative;
+    top: 50px;
+    left: 150px;
+    height: 400px;
+    width: 600px;
+    border: solid wheat 2px;
+    box-shadow: 2px 2px 10px 1px wheat;
+
 
  }
 
@@ -66,45 +87,133 @@ html, body {
     background-color: rgba(56,42,35,1);
     grid-area:  portfolio2;}
 
+#mainContent #portfolio2  p {
+    color: wheat;
+    font-size: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
 
 
-#mainContent #menu {
-    background-color: rgba(82, 158, 155, 1);
-    grid-area:  menu;}
-
-
-#mainContent #menu ul {
-    display: inline-flex;
-    list-style-type: none;
-    height: 100%;
-    padding: 0;
-    margin: 0;
 }
 
-#mainContent #menu ul a {
-    font-size: 1.5em;
-    text-decoration: none;
-    color: black;
-    height: 100%;
-    display: inline-flex;
-    padding: 0 40px;
+#mainContent #portfolio2  p  span{
+    color: wheat;
+    font-size: 35px;
+    font-family: 'Open Sans Condensed', sans-serif;
+
 }
 
-#mainContent #menu ul a:hover {
+
+nav div img {
+    width: 300px;
+    height: 300px;
+}
+
+ #section1  {
+    grid-area:  section1;
+    height: 926px;
+    background: linear-gradient(to right, #e7f4f6, #becebc);
+}
+
+
+                                   #section1  a {
+
+                                       position: relative;
+                                       top: 3px;
+                                       left: 600px;
+                                         }
+
+                                    #section1  a img{
+                                        border: solid rgba(56,42,35,1) 2px;
+                                    }
+
+
+ #section2  {
+    grid-area:  section2;
+     height: 926px;
+     background: linear-gradient(to right,  #becebc, #e7f4f6);
+}
+
+                                      #section2  a {
+
+                                     position: relative;
+                                     top: 3px;
+                                     left: 3px; }
+
+                                     #section2  a img{
+                                     border: solid rgba(56,42,35,1) 2px;
+                                        }
+
+
+
+
+#contacts {
     background-color: rgba(56,42,35,1);
-    color: #AB9567;
+    grid-area:  contacts;
+    width: 100%;
+    height: 400px;
+}
+
+
+#photo {
+    background-color: white;
+    grid-area: photo;
 }
 
 
 
 
-
-
-
-
-
-
-
-#mainContent #footer1 {background-color: rgba(6,30,32,1);
+#footer1 {
+    background-color: rgba(6,30,32,1);
     grid-area:  footer1;
+
      }
+
+#footer1 p {
+    color: wheat;
+    font-size: 25px;
+    position: relative;
+    top: 15px;
+    left: 400px;
+    width: auto;
+    padding: inherit;
+}
+#footer1 p  span {
+    color: wheat;
+    font-size: 15px;}
+
+#footer1 a {
+    text-decoration: none;
+    color: white;
+    width: 20px;
+    height: 20px;
+
+}
+/*
+[target=_blank]:after {
+    content: url("/site/images/f.png");
+    color: white;
+
+}
+
+[target=_blank]::before {
+    content: " ";
+    color: white;
+}
+
+#footer1 a {
+    text-decoration: none;
+}
+
+/*#footer1 p:after {
+    width: 20px;
+    height: 20px;
+    content:
+}
+
+p.new:after {
+    content: "Новьё!";
+    color: #333;
+    background-color: #fc0;
+    font-size: 90%;
+    padding: 2px;
+} */
