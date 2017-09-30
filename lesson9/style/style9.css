@@ -8,6 +8,7 @@ body {
     display: flex;
     overflow: hidden;
     perspective: 1000px;
+    position: relative;
 }
 /*#transformTest {
     margin: auto;
@@ -21,7 +22,7 @@ body {
   transition: transform .5s ease-in;
 
 } */
-#button1 button {
+ /*#button1 button {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -53,3 +54,24 @@ body {
     /*transform: rotateX(30deg);}*/
 
 
+#block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid #000;
+    background-color: #67ff38;
+    height: 100px;
+    width: 100px;
+  /*  transform: scale(0);*/
+    transition: width .2s, height .2s;
+    transform-origin: 0 0;
+
+}
+#block ul {
+    transform: scale(0);
+}
+
+#block ul:hover {
+    transform-origin: 50% 50%;
+    transform: scale(2, 2);
+}
