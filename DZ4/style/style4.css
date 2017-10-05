@@ -1,0 +1,222 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.mainContent {
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+
+    grid-template-areas: "one1 one2 one3 one4 one51 one6 one7 one8 one9 one10 one11 one12"
+                         "one13 one141 one141 one16 one51 one18 one19 one20 one211 one211 one23 one24"
+                         "one25 one26 one27 one28 one51 one30 one31 one32 one33 one34 one35 one36"
+                         "one37 one38 one39 one40 one41 one42 one431 one431 one45 one46 one47 one48";
+}
+
+
+
+#one1 {
+    border: solid black 1px;
+     grid-area: one1;
+}
+#one2 {
+     border: solid black 1px;
+    grid-area: one2;
+ }
+
+#one3 {
+    border: solid black 1px;
+    grid-area: one3;
+}
+#one4 {
+    border: solid black 1px;
+    grid-area: one4;
+}
+
+#one51 {
+    border: solid black 1px;
+    grid-area: one51;
+
+    }
+#one51 #text {
+    transform: rotate(270deg);
+    font-size: 20px;
+    }
+
+#one6 {
+    border: solid black 1px;
+    grid-area: one6;
+}
+#one7 {
+    border: solid black 1px;
+    grid-area: one7;
+}
+#one8 {
+    border: solid black 1px;
+    grid-area: one8;
+}
+#one9 {
+    border: solid black 1px;
+    grid-area: one9;
+}
+#one10 {
+    border: solid black 1px;
+    grid-area: one10;
+}
+#one11 {
+    border: solid black 1px;
+    grid-area: one11;
+}
+
+#one141 {
+    border: solid black 1px;
+    grid-area: one141;
+}
+#one141 span {
+    position: relative;
+    top: 5px;
+    left: 120px;
+    font-size: 40px;
+}
+
+#one211 {
+    border: solid black 1px;
+    grid-area: one211;
+}
+#one211 span {
+    position: relative;
+    top: 5px;
+    left: 50px;
+    font-size: 40px;}
+
+
+#one431 {
+    border: solid black 1px;
+    grid-area: one431;
+}
+#one431 span {
+    position: relative;
+    top: 5px;
+    left: 50px;
+    font-size: 40px;}
+
+#one12 {
+    border: solid black 1px;
+    grid-area: one12;
+}
+#one13 {
+    border: solid black 1px;
+    grid-area: one13;
+}
+#one16 {
+    border: solid black 1px;
+    grid-area: one16;
+}
+#one18 {
+    border: solid black 1px;
+    grid-area: one18;
+}
+#one19 {
+    border: solid black 1px;
+    grid-area: one19;
+}
+#one20 {
+    border: solid black 1px;
+    grid-area: one20;
+}
+#one23 {
+    border: solid black 1px;
+    grid-area: one23;
+}
+#one24 {
+    border: solid black 1px;
+    grid-area: one24;
+}
+#one25 {
+    border: solid black 1px;
+    grid-area: one25;
+}
+#one26 {
+    border: solid black 1px;
+    grid-area: one26;
+}
+#one27 {
+    border: solid black 1px;
+    grid-area: one27;
+}
+#one28 {
+    border: solid black 1px;
+    grid-area: one28;
+}
+#one30 {
+    border: solid black 1px;
+    grid-area: one30;
+}
+#one31 {
+    border: solid black 1px;
+    grid-area: one31;
+}
+#one32 {
+    border: solid black 1px;
+    grid-area: one32;
+}
+#one33 {
+    border: solid black 1px;
+    grid-area: one33;
+}
+#one34 {
+    border: solid black 1px;
+    grid-area: one34;
+}
+#one35 {
+    border: solid black 1px;
+    grid-area: one35;
+}
+#one36 {
+    border: solid black 1px;
+    grid-area: one36;
+}
+#one37 {
+    border: solid black 1px;
+    grid-area: one37;
+}
+#one38 {
+    border: solid black 1px;
+    grid-area: one38;
+}
+#one39 {
+    border: solid black 1px;
+    grid-area: one39;
+}
+#one40 {
+    border: solid black 1px;
+    grid-area: one40;
+}
+#one41 {
+    border: solid black 1px;
+    grid-area: one41;
+}
+#one42 {
+    border: solid black 1px;
+    grid-area: one42;
+}
+#one45 {
+    border: solid black 1px;
+    grid-area: one45;
+}
+#one46 {
+    border: solid black 1px;
+    grid-area: one46;
+}
+#one47 {
+    border: solid black 1px;
+    grid-area: one47;
+}
+#one48 {
+    border: solid black 1px;
+    grid-area: one48;
+}

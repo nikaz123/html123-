@@ -1,0 +1,93 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#Content {
+    display: grid;
+    grid-template-rows: 90px 150px 500px 926px 400px 400px 100px;
+    grid-template-columns: 25% 25% 25% 25%;
+
+
+    grid-template-areas: "header1 header1 header1 header1"
+    "name name name name"
+    "portfolio1 portfolio1 portfolio2 portfolio2"
+    "section1 section1 section2 section2"
+    "contacts contacts contacts contacts"
+    "photo photo photo photo"
+    "footer1 footer1 footer1 footer1";
+
+
+}
+
+#Content .header1 {
+    background-color: rgba(6,30,32,1);
+    grid-area:  header1;
+    border: solid wheat 1px;}
+
+#Content .header1 a span {
+    color: white;
+    font-size: 30px;
+    font-family: "Times New Roman";
+    font-style: italic;
+    position: relative;
+    top: 20px;
+    left: 1800px;
+}
+
+
+
+
+#Content .header1 #menu {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+
+
+#Content .header1 #menu li {
+    margin: 0;
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+}
+
+
+#menu li:hover {
+    height: 100%;
+    width: 100%;
+    background-color: wheat}
+
+#Content .header1 #menu li a  span {
+    color: white;
+    display: inline;
+    margin: 0;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    font-size: 18px;
+
+}
+
+
+#Content .header1 a {
+    text-decoration: none;
+}
+
+#Content #name {
+    background-color: rgba(6,30,32,1);
+    grid-area:  name;
+
+}
+
+
+#Content #name h1 {
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    font-size: 70px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    min-width: 1200px;}
