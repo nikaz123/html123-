@@ -18,34 +18,75 @@ html, body {
 }
 
 
+@keyframes rainbow {
+    0% {background-color: #FFFFFF;}
+    10% {background-color: #DCDCDC;}
+    20% {background-color: #D3D3D3;}
+    30% {background-color: #D3D3D3;}
+    40% {background-color: #C0C0C0;}
+    50% {background-color: #A9A9A9;}
+    60% {background-color: #A9A9A9;}
+    70% {background-color: #808080;}
+    80% {background-color: #808080;}
+    90% {background-color: #696969;}
+    100% {background-color: #696969;}
+
+}
+
 
 #one1 {
     border: solid black 1px;
-     grid-area: one1;
+    grid-area: one1;
+    animation: rainbow 5s infinite normal;
+    animation-direction: alternate;
 }
 #one2 {
-     border: solid black 1px;
+    border: solid black 1px;
     grid-area: one2;
+    animation: rainbow 5s  infinite -300ms normal;
+    animation-direction: alternate;
  }
 
 #one3 {
     border: solid black 1px;
     grid-area: one3;
+    animation: rainbow 5s  infinite 300ms normal;
+    animation-direction: alternate;
 }
 #one4 {
     border: solid black 1px;
     grid-area: one4;
+    animation: rainbow 5s  infinite 100ms normal;
+    animation-direction: alternate;
 }
 
 #one51 {
     border: solid black 1px;
     grid-area: one51;
+    animation: rainbow 5s  infinite 100ms normal;
+    animation-direction: alternate;
 
     }
 #one51 #text {
     transform: rotate(270deg);
     font-size: 20px;
     }
+
+#one51  {
+
+    transition: transform 0.2s 0.5s ease-out, box-shadow 0.5s  ease-in-out;
+}
+
+#one51:hover {
+
+    transform: scale(1.5);
+    box-shadow: 2px 2px 10px 1px grey;
+    transition: transform 0.2s ease-out, box-shadow 0.5s 0.5s ease-in-out;
+}
+
+
+
+
 
 #one6 {
     border: solid black 1px;
