@@ -11,7 +11,7 @@ html, body {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
 
-    grid-template-areas: "one1 one2 one3 one4 one51 one6 one7 one8 one9 one10 one11 one12"
+    grid-template-areas: "button one2 one3 one4 one51 one6 one7 one8 one9 one10 one11 one12"
                          "one13 one141 one141 one16 one51 one18 one19 one20 one211 one211 one23 one24"
                          "one25 one26 one27 one28 one51 one30 one31 one32 one33 one34 one35 one36"
                          "one37 one38 one39 one40 one41 one42 one431 one431 one45 one46 one47 one48";
@@ -51,9 +51,9 @@ body {
 
 
 
-#one1 {
+#button {
     border: solid black 1px;
-    grid-area: one1;
+    grid-area: button;
     animation: rainbow 5s infinite normal;
     animation-direction: alternate;
 }
