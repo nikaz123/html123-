@@ -11,7 +11,7 @@ html, body {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
 
-    grid-template-areas: "button one2 one3 one4 one51 one6 one7 one8 one9 one10 one11 one12"
+    grid-template-areas: "one1 one2 one3 one4 one51 one6 one7 one8 one9 one10 one11 one12"
                          "one13 one141 one141 one16 one51 one18 one19 one20 one211 one211 one23 one24"
                          "one25 one26 one27 one28 one51 one30 one31 one32 one33 one34 one35 one36"
                          "one37 one38 one39 one40 one41 one42 one431 one431 one45 one46 one47 one48";
@@ -51,18 +51,49 @@ body {
 
 
 
-#button {
+#one1 {
     border: solid black 1px;
-    grid-area: button;
+    grid-area: one1;
     animation: rainbow 5s infinite normal;
     animation-direction: alternate;
 }
+#one1 {
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+   pointer-events: none;
+}
+#one1:hover {
+    transform: translate3d(-10px, 5px, -10px);
+    box-shadow: 10px -10px 10px 2px grey;
+    transition: transform 0.2s ease-out, box-shadow 0.5s 0.01s ease-in-out;
+    animation: rainbow1 5s  infinite 1ms normal;
+    animation-direction: alternate;}
+
+
 #one2 {
     border: solid black 1px;
     grid-area: one2;
     animation: rainbow 5s  infinite -300ms normal;
     animation-direction: alternate;
  }
+
+#one2 {
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+#one2:hover {
+    transform: translate3d(-10px, 5px, -10px);
+    box-shadow: 10px -10px 10px 2px grey;
+    transition: transform 0.2s ease-out, box-shadow 0.5s 0.01s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+
+
+
+
+
+
 
 #one3 {
     border: solid black 1px;
@@ -88,9 +119,12 @@ body {
     animation: rainbow 5s  infinite 100ms normal;
     animation-direction: alternate;
     }
-#one51 #text {
+#one51,  #type {
     transform: rotate(270deg);
     font-size: 20px;
+    width: auto;
+    height: 100px;
+    margin: 0;
     }
 
 #one51  {
@@ -101,7 +135,7 @@ body {
 #one51:hover {
 
     transform: translate3d(-10px, 5px, -10px);
-    box-shadow: 10px -10px 10px 1px grey;
+    box-shadow: 10px -10px 10px 2px grey;
     transition: transform 0.2s ease-out, box-shadow 0.5s 0.01s ease-in-out;
     animation: rainbow1 5s  infinite 1ms normal;
     animation-direction: alternate;
