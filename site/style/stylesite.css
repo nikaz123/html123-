@@ -14,7 +14,7 @@ html, body {
     grid-template-areas: "header1 header1 header1 header1"
                          "name name name name"
                          "portfolio1 portfolio1 portfolio2 portfolio2"
-                         "section1 section1 section2 section2"
+                         "section1 section1 section1 section1"
                          "contacts contacts contacts contacts"
                          "photo photo photo photo"
                          "footer1 footer1 footer1 footer1";
@@ -132,12 +132,14 @@ html, body {
 
 
 
+
 }
 
 #mainContent #portfolio2  p  span{
     color: wheat;
     font-size: 35px;
     font-family: 'Open Sans Condensed', sans-serif;
+
 
 }
 
@@ -148,13 +150,35 @@ nav div img {
 }
 
  #section1  {
-    grid-area:  section1;
-    height: 926px;
-    background: linear-gradient(to right, #e7f4f6, #becebc);
+     display: flex;
+     grid-area:  section1;
+     height: 926px;
+     background: linear-gradient(to right, #ccf2ed, #d8fef9);
+     justify-content: space-around;
+     }
+
+#section1 span {
+    font-size: 80px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    align-self: center;
 }
 
 
-                                   #section1  a {
+
+ #section1 #part1, #part2, #part3, #part4, #part5, #part6  {
+     height: 300px;
+     width: 300px;
+     border: solid rgba(56,42,35,1) 2px;
+     align-self: center;
+
+
+
+
+
+ }
+
+
+           /*                        #section1  a {
 
                                        position: relative;
                                        top: 3px;
@@ -166,11 +190,11 @@ nav div img {
                                     }
 
 
- #section2  {
-    grid-area:  section2;
-     height: 926px;
-     background: linear-gradient(to right,  #becebc, #e7f4f6);
-}
+                                  #section2  {
+                          grid-area:  section2;
+                       height: 926px;
+                      background: linear-gradient(to right,  #becebc, #e7f4f6);
+                                 }
 
                                       #section2  a {
 
@@ -180,7 +204,7 @@ nav div img {
 
                                      #section2  a img{
                                      border: solid rgba(56,42,35,1) 2px;
-                                        }
+                                        }*/
 
 
 
