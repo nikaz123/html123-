@@ -128,10 +128,10 @@ body {
     }
 
  #one51 {
-          transform: rotate(270deg);
+     transform: rotate(270deg);
      background:transparent;
      border:none;
-     transform-origin: 100% 200%;
+     transform-origin: 95% 180%;
 
 
 
