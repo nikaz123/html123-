@@ -36,44 +36,40 @@ body {
 }
 
 @keyframes rainbow1 {
-    0% {background-color: #FF0000;}
-    10% {background-color: #FF8000;}
-    20% {background-color: #FFFF00;}
-    30% {background-color: #80FF00;}
-    40% {background-color: #00FF00;}
-    50% {background-color: #00FF80;}
-    60% {background-color: #00FFFF;}
-    70% {background-color: #0080FF;}
-    80% {background-color: #0000FF;}
-    90% {background-color: #8000FF;}
-    100% {background-color: #FF0080;}
+    0%  {background-color: #FF0000; color:#00FFFF;}
+    10% {background-color: #FF8000; color:#0080FF;}
+    20% {background-color: #FFFF00; color:#0000FF;}
+    30% {background-color: #80FF00; color:#8000FF;}
+    40% {background-color: #00FF00; color:#FF0080;}
+    50% {background-color: #00FF80; color:#FF0000;}
+    60% {background-color: #00FFFF; color:#FF8000;}
+    70% {background-color: #0080FF; color:#FFFF00;}
+    80% {background-color: #0000FF; color:#80FF00;}
+    90% {background-color: #8000FF; color:#00FF00;}
+   100% {background-color: #FF0080; color:#00FF80;}
 }
-
-
 
 #one1 {
     border: solid black 1px;
     grid-area: one1;
     animation: rainbow 5s infinite normal;
     animation-direction: alternate;
-}
-#one1 {
     transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
-    /*pointer-events: none;*/
+     /*pointer-events: none;*/
 }
+
 #one1:hover {
     transform: translate3d(-5px, 5px, 5px);
-
-    /*box-shadow: 1px 1px 0px #999,*/
-    box-shadow:  1px 0 grey,
-                 2px -1px grey,
-                 3px -2px grey,
-                 4px -3px grey,
-                 5px -4px grey,
-                 6px -5px grey;
+       box-shadow:  1px 0 grey,
+                    2px -1px grey,
+                    3px -2px grey,
+                    4px -3px grey,
+                    5px -4px grey,
+                    6px -5px 6px 2px rgba(80,80,80, 0.5);
      transition: transform 0.2s ease-out, box-shadow 0.2s  ease-in-out;
-    animation: rainbow1 5s  infinite 1ms normal;
-    animation-direction: alternate;}
+     animation: rainbow1 5s  infinite 1ms normal;
+     animation-direction: alternate;
+}
 
 
 
@@ -122,27 +118,26 @@ body {
 
 
 
-#one51 {
+#one511 {
     border: solid black 1px;
     grid-area: one51;
     animation: rainbow 5s  infinite 0.1ms normal;
     animation-direction: alternate;
+
+
     }
-/*#one51,  #type {
-    transform: rotate(270deg);
-    font-size: 20px;
-    width: auto;
-    height: 100px;
-    margin: 0;
-    }*/
 
-#one51  {
+ #one51 {
+          transform: rotate(270deg);
+     background:transparent;
+     border:none;
+     transform-origin: 100% 200%;
 
-    transition: transform 10ms 1ms ease-out, box-shadow 0.1ms linear;
-}
 
-#one51:hover {
 
+
+ }
+#one511:hover {
     transform: translate3d(-7px, 7px, 7px);
     /*box-shadow: 10px -10px 20px 2px grey;*/
     box-shadow:
