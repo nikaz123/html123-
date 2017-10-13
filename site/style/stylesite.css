@@ -7,7 +7,7 @@ html, body {
 
 #mainContent {
     display: grid;
-    grid-template-rows: 90px 150px 500px 926px 400px 400px 100px;
+    grid-template-rows: 90px 150px 500px 1fr 400px 400px 100px;
     grid-template-columns: 25% 25% 25% 25%;
 
 
@@ -144,67 +144,154 @@ html, body {
 }
 
 
-nav div img {
-    width: 300px;
-    height: 300px;
+
+
+#mainContent #section1  {
+     grid-area:  section1;
+     background: linear-gradient(to right, #ccf2ed, #d8fef9);
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+
 }
 
- #section1  {
-     display: flex;
-     grid-area:  section1;
-     height: 926px;
-     background: linear-gradient(to right, #ccf2ed, #d8fef9);
-     justify-content: space-around;
-     }
 
-#section1 span {
-    font-size: 80px;
-    font-family: 'Open Sans Condensed', sans-serif;
+#mainContent #section1 .work1  {
+
+
+    align-content: space-around;
+    align-self: center;
+}
+
+#mainContent #section1 .work2  {
+
+
+    align-content: space-around;
     align-self: center;
 }
 
 
 
- #section1 #part1, #part2, #part3, #part4, #part5, #part6  {
-     height: 300px;
-     width: 300px;
-     border: solid rgba(56,42,35,1) 2px;
-     align-self: center;
 
 
 
 
+#mainContent #section1 .work1 #part1 {
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 20px;}
+
+
+
+#mainContent #section1 .work1 #part1 a img {
+     border: 2px solid rgba(0, 0, 0, 0.88); /* Рамка вокруг фотографии */
+     margin-right: 10px; /* Отступ справа */
+     margin-bottom: 10px; /* Отступ снизу */
+     width: 350px;
+     height: 350px;
 
  }
 
+#mainContent #section1 .work1 #part2 {
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
 
-           /*                        #section1  a {
+#mainContent #section1 .work1 #part2 a img {
+    border: 2px solid rgba(0, 0, 0, 0.88); /* Рамка вокруг фотографии */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+    width: 350px;
+    height: 350px;
 
-                                       position: relative;
-                                       top: 3px;
-                                       left: 600px;
-                                         }
+}
 
-                                    #section1  a img{
-                                        border: solid rgba(56,42,35,1) 2px;
-                                    }
+#mainContent #section1 .work1 #part3 {
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
 
 
-                                  #section2  {
-                          grid-area:  section2;
-                       height: 926px;
-                      background: linear-gradient(to right,  #becebc, #e7f4f6);
-                                 }
+#mainContent #section1 .work1 #part3 a img {
+    border: 2px solid rgba(0, 0, 0, 0.88); /* Рамка вокруг фотографии */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+    width: 350px;
+    height: 350px;
+}
 
-                                      #section2  a {
+#mainContent #section1 .work2 #part4 {
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
 
-                                     position: relative;
-                                     top: 3px;
-                                     left: 3px; }
+#mainContent #section1 .work2 #part4 a img {
+    border: 2px solid rgba(0, 0, 0, 0.88); /* Рамка вокруг фотографии */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+    width: 350px;
+    height: 350px;
 
-                                     #section2  a img{
-                                     border: solid rgba(56,42,35,1) 2px;
-                                        }*/
+}
+#mainContent #section1 .work2 #part5 {
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#mainContent #section1 .work2 #part5 a img {
+    border: 2px solid rgba(0, 0, 0, 0.88); /* Рамка вокруг фотографии */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+    width: 350px;
+    height: 350px;
+
+}
+
+#mainContent #section1 .work2 #part6 {
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+#mainContent #section1 .work2 #part6 a img {
+    border: 2px solid rgba(0, 0, 0, 0.88); /* Рамка вокруг фотографии */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+    width: 350px;
+    height: 350px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

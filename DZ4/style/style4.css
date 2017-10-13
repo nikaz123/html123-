@@ -55,40 +55,981 @@ body {
     animation: rainbow 5s infinite normal;
     animation-direction: alternate;
     transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
-     /*pointer-events: none;*/
+     pointer-events: none;
 }
 
 #one1:hover {
     transform: translate3d(-5px, 5px, 5px);
-       box-shadow:  1px 0 grey,
-                    2px -1px grey,
-                    3px -2px grey,
-                    4px -3px grey,
-                    5px -4px grey,
-                    6px -5px 6px 2px rgba(80,80,80, 0.5);
-     transition: transform 0.2s ease-out, box-shadow 0.2s  ease-in-out;
-     animation: rainbow1 5s  infinite 1ms normal;
-     animation-direction: alternate;
+    box-shadow: 1px 0 grey,
+                2px -1px grey,
+                3px -2px grey,
+                4px -3px grey,
+                5px -4px grey,
+                6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
 }
-
-
-
 
 #one2 {
     border: solid black 1px;
     grid-area: one2;
-    animation: rainbow 5s  infinite -300ms normal;
+    animation: rainbow 5s 200ms infinite normal;
     animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;   }
+ #one2:hover {
+     transform: translate3d(-5px, 5px, 5px);
+     box-shadow: 1px 0 grey,
+                  2px -1px grey,
+                  3px -2px grey,
+                  4px -3px grey,
+                  5px -4px grey,
+                  6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+     transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+     animation: rainbow1 5s infinite 1ms normal;
+     animation-direction: alternate;
  }
 
-#one2 {
+
+
+    #one3 {
+        border: solid black 1px;
+        grid-area: one3;
+        animation: rainbow 5s  infinite normal;
+        animation-direction: alternate;
+        transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+       pointer-events: none;   }
+     #one3:hover {
+         transform: translate3d(-5px, 5px, 5px);
+         box-shadow: 1px 0 grey,
+                     2px -1px grey,
+                     3px -2px grey,
+                     4px -3px grey,
+                     5px -4px grey,
+                     6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+         transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+         animation: rainbow1 5s infinite 1ms normal;
+         animation-direction: alternate;
+     }
+
+#one4 {
+    border: solid black 1px;
+    grid-area: one4;
+    animation: rainbow 5s  infinite normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;   }
+ #one4:hover {
+     transform: translate3d(-5px, 5px, 5px);
+     box-shadow: 1px 0 grey,
+                 2px -1px grey,
+                 3px -2px grey,
+                 4px -3px grey,
+                 5px -4px grey,
+                 6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+     transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+     animation: rainbow1 5s infinite 3ms normal;
+     animation-direction: alternate;
+ }
+
+#one511 {
+    border: solid black 1px;
+    grid-area: one51;
+    animation: rainbow 5s  infinite 0.1ms normal;
+    animation-direction: alternate;
+    /*pointer-events: none;*/
+}
+
+ #one51 {
+     transform: rotate(270deg);
+     background:transparent;
+     border:none;
+     transform-origin: 70% 195%;
+       }
+#one511:hover {
+    transform: translate3d(-7px, 7px, 7px);
+        box-shadow:
+
+                 1px 0 grey,
+                 2px -1px grey,
+                 3px -2px grey,
+                 4px -3px grey,
+                 5px -4px grey,
+                 6px -5px grey,
+                 7px -6px grey,
+                 8px -7px 7px 2px rgba(80, 80, 80, 0.5);
+          transition: transform 0.2s ease-out, box-shadow 0.2s  ease-in-out;
+    animation: rainbow1 5s  infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+
+    #one13 {
+        border: solid black 1px;
+        grid-area: one13;
+        animation: rainbow 5s infinite 20ms normal;
+        animation-direction: alternate;
+        transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+         pointer-events: none;
+    }
+
+    #one13:hover {
+        transform: translate3d(-4px, 5px, 4px);
+        box-shadow: 1px 0 grey,
+                    2px -1px grey,
+                    3px -2px grey,
+                    4px -3px grey,
+                    5px -4px grey,
+                    6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+        transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+        animation: rainbow1 5s infinite 1ms normal;
+        animation-direction: alternate;
+    }
+
+  #one141 {
+      border: solid black 1px;
+      grid-area: one141;
+      animation: rainbow 5s infinite 2ms normal;
+      animation-direction: alternate;
+      transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+      /* pointer-events: none;*/
+  }
+
+  #one141:hover {
+      transform: translate3d(-4px, 5px, 4px);
+      box-shadow: 1px 0 grey,
+                  2px -1px grey,
+                  3px -2px grey,
+                  4px -3px grey,
+                  5px -4px grey,
+                  6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+      transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+      animation: rainbow1 5s infinite 100ms normal;
+      animation-direction: alternate;
+  }
+
+#one141 span {
+    position: relative;
+    top: 5px;
+    left: 120px;
+    font-size: 40px;
+}
+
+ #one16 {
+      border: solid black 1px;
+      grid-area: one16;
+      animation: rainbow 5s infinite 200ms normal;
+      animation-direction: alternate;
+      transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+       pointer-events: none;
+  }
+
+  #one16:hover {
+      transform: translate3d(-5px, 5px, 5px);
+      box-shadow: 1px 0 grey,
+                  2px -1px grey,
+                  3px -2px grey,
+                  4px -3px grey,
+                  5px -4px grey,
+                  6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+      transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+      animation: rainbow1 5s infinite 1ms normal;
+      animation-direction: alternate;
+  }
+
+  #one25 {
+      border: solid black 1px;
+      grid-area: one25;
+      animation: rainbow 5s infinite 120ms normal;
+      animation-direction: alternate;
+      transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+       pointer-events: none;
+  }
+
+  #one25:hover {
+      transform: translate3d(-5px, 5px, 5px);
+      box-shadow: 1px 0 grey,
+                  2px -1px grey,
+                  3px -2px grey,
+                  4px -3px grey,
+                  5px -4px grey,
+                  6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+      transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+      animation: rainbow1 5s infinite 1ms normal;
+      animation-direction: alternate;
+  }
+
+#one26 {
+    border: solid black 1px;
+    grid-area: one26;
+    animation: rainbow 5s infinite 80ms normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+     pointer-events: none;
+}
+
+#one26:hover {
+    transform: translate3d(-5px, 5px, 5px);
+    box-shadow: 1px 0 grey,
+                2px -1px grey,
+                3px -2px grey,
+                4px -3px grey,
+                5px -4px grey,
+                6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+ #one27 {
+     border: solid black 1px;
+     grid-area: one27;
+     animation: rainbow 5s infinite 130ms normal;
+     animation-direction: alternate;
+     transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+      pointer-events: none;
+ }
+
+ #one27:hover {
+     transform: translate3d(-5px, 5px, 5px);
+     box-shadow: 1px 0 grey,
+                 2px -1px grey,
+                 3px -2px grey,
+                 4px -3px grey,
+                 5px -4px grey,
+                 6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+     transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+     animation: rainbow1 5s infinite 1ms normal;
+     animation-direction: alternate;
+ }
+
+   #one28 {
+       border: solid black 1px;
+       grid-area: one28;
+       animation: rainbow 5s infinite 140ms normal;
+       animation-direction: alternate;
+       transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+        pointer-events: none;
+   }
+
+   #one28:hover {
+       transform: translate3d(-5px, 5px, 5px);
+       box-shadow: 1px 0 grey,
+                   2px -1px grey,
+                   3px -2px grey,
+                   4px -3px grey,
+                   5px -4px grey,
+                   6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+       transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+       animation: rainbow1 5s infinite 1ms normal;
+       animation-direction: alternate;
+   }
+
+  #one37 {
+      border: solid black 1px;
+      grid-area: one37;
+      animation: rainbow 5s infinite 100ms normal;
+      animation-direction: alternate;
+      transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+       pointer-events: none;
+  }
+
+  #one37:hover {
+      transform: translate3d(-5px, 5px, 5px);
+      box-shadow: 1px 0 grey,
+                  2px -1px grey,
+                  3px -2px grey,
+                  4px -3px grey,
+                  5px -4px grey,
+                  6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+      transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+      animation: rainbow1 5s infinite 1ms normal;
+      animation-direction: alternate;
+  }
+
+#one38 {
+    border: solid black 1px;
+    grid-area: one38;
+    animation: rainbow 5s infinite 2s  normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+     pointer-events: none;
+}
+
+#one38:hover {
+    transform: translate3d(-5px, 5px, 5px);
+    box-shadow: 1px 0 grey,
+                2px -1px grey,
+                3px -2px grey,
+                4px -3px grey,
+                5px -4px grey,
+                6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+#one39 {
+    border: solid black 1px;
+    grid-area: one39;
+    animation: rainbow 5s infinite 0.5s normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+     pointer-events: none;
+}
+
+#one39:hover {
+    transform: translate3d(-5px, 5px, 5px);
+    box-shadow: 1px 0 grey,
+                2px -1px grey,
+                3px -2px grey,
+                4px -3px grey,
+                5px -4px grey,
+                6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+#one40 {
+    border: solid black 1px;
+    grid-area: one40;
+    animation: rainbow 5s infinite 0.3s normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+     pointer-events: none;
+}
+
+#one40:hover {
+    transform: translate3d(-5px, 5px, 5px);
+    box-shadow: 1px 0 grey,
+                2px -1px grey,
+                3px -2px grey,
+                4px -3px grey,
+                5px -4px grey,
+                6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+ #one41 {
+     border: solid black 1px;
+     grid-area: one41;
+     animation: rainbow 5s infinite 0.5s normal;
+     animation-direction: alternate;
+     transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+      pointer-events: none;
+ }
+
+ #one41:hover {
+     transform: translate3d(-5px, 5px, 5px);
+     box-shadow: 1px 0 grey,
+                 2px -1px grey,
+                 3px -2px grey,
+                 4px -3px grey,
+                 5px -4px grey,
+                 6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+     transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+     animation: rainbow1 5s infinite 1ms normal;
+     animation-direction: alternate;
+ }
+ #one431 {
+     border: solid black 1px;
+     grid-area: one431;
+     animation: rainbow 5s infinite 0.2s normal;
+     animation-direction: alternate;
+     transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+      /*pointer-events: none;*/
+ }
+
+ #one431:hover {
+     transform: translate3d(2px, 4px, 7px);
+     box-shadow:-1px 0 grey,
+                -2px -1px grey,
+                -3px -2px grey,
+                -4px -3px grey,
+                -5px -4px grey,
+                -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+     transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+     animation: rainbow1 5s infinite 1ms normal;
+     animation-direction: alternate;
+ }
+
+#one431 span {
+    position: relative;
+    top: 5px;
+    left: 50px;
+    font-size: 40px;}
+
+
+#one6 {
+    border: solid black 1px;
+    grid-area: one6;
+    animation: rainbow 5s infinite 0.1s normal;
+    animation-direction: alternate;
     transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
     pointer-events: none;
 }
-#one2:hover {
-    transform: translate3d(-10px, 5px, -10px);
-    box-shadow: 10px -10px 10px 2px grey;
-    transition: transform 0.2s ease-out, box-shadow 0.5s 0.01s ease-in-out;
+
+#one6:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+
+
+
+
+
+
+   #one211 {
+       border: solid black 1px;
+       grid-area: one211;
+       animation: rainbow 5s infinite 0.3s normal;
+       animation-direction: alternate;
+       transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+        /*pointer-events: none;*/
+   }
+
+   #one211:hover {
+       transform: translate3d(2px, 4px, 7px);
+       box-shadow:-1px 0 grey,
+                  -2px -1px grey,
+                  -3px -2px grey,
+                  -4px -3px grey,
+                  -5px -4px grey,
+                  -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+       transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+       animation: rainbow1 5s infinite 1ms normal;
+       animation-direction: alternate;
+   }
+
+#one211 span {
+    position: relative;
+    top: 5px;
+    left: 50px;
+    font-size: 40px;}
+
+
+
+
+
+
+
+#one7 {
+    border: solid black 1px;
+    grid-area: one7;
+    animation: rainbow 5s infinite 0.1s normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one7:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+#one8 {
+    border: solid black 1px;
+    grid-area: one8;
+    animation: rainbow 5s infinite 0.1s normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one8:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+#one18 {
+    border: solid black 1px;
+    grid-area: one18;
+    animation: rainbow 5s infinite 0.3s normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one18:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+#one19 {
+    border: solid black 1px;
+    grid-area: one19;
+    animation: rainbow 5s infinite 200ms normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one19:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+
+#one20 {
+    border: solid black 1px;
+    grid-area: one20;
+    animation: rainbow 5s infinite 100ms normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one20:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+#one30 {
+    border: solid black 1px;
+    grid-area: one30;
+    animation: rainbow 5s infinite normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one30:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+
+#one31 {
+    border: solid black 1px;
+    grid-area: one31;
+    animation: rainbow 5s infinite 20ms normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+   pointer-events: none;
+}
+
+#one31:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+#one32 {
+    border: solid black 1px;
+    grid-area: one32;
+    animation: rainbow 5s infinite 100ms normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one32:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+#one42 {
+    border: solid black 1px;
+    grid-area: one42;
+    animation: rainbow 5s infinite 120ms normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one42:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+#one9 {
+    border: solid black 1px;
+    grid-area: one9;
+    animation: rainbow 5s infinite 80ms normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one9:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+#one10 {
+    border: solid black 1px;
+    grid-area: one10;
+    animation: rainbow 5s infinite 60ms normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one10:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+#one11 {
+    border: solid black 1px;
+    grid-area: one11;
+    animation: rainbow 5s infinite 90ms normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one11:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+#one12 {
+    border: solid black 1px;
+    grid-area: one12;
+    animation: rainbow 5s infinite 100ms normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one12:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+
+#one23 {
+    border: solid black 1px;
+    grid-area: one23;
+    animation: rainbow 5s infinite 0.1s normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one23:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+#one24 {
+    border: solid black 1px;
+    grid-area: one24;
+    animation: rainbow 5s infinite 50ms normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one24:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+#one33 {
+    border: solid black 1px;
+    grid-area: one33;
+    animation: rainbow 5s infinite 250ms normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one33:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+#one34 {
+    border: solid black 1px;
+    grid-area: one34;
+    animation: rainbow 5s infinite 230ms normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one34:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+#one35 {
+    border: solid black 1px;
+    grid-area: one35;
+    animation: rainbow 5s infinite 2s normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one35:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+#one36 {
+    border: solid black 1px;
+    grid-area: one36;
+    animation: rainbow 5s infinite 100ms normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one36:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+#one45 {
+    border: solid black 1px;
+    grid-area: one45;
+    animation: rainbow 5s infinite 50ms normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one45:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+#one46 {
+    border: solid black 1px;
+    grid-area: one46;
+    animation: rainbow 5s infinite 100ms normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one46:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+#one47 {
+    border: solid black 1px;
+    grid-area: one47;
+    animation: rainbow 5s infinite 50ms normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one47:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
+    animation: rainbow1 5s infinite 1ms normal;
+    animation-direction: alternate;
+}
+
+#one48 {
+    border: solid black 1px;
+    grid-area: one48;
+    animation: rainbow 5s infinite 0.2ms normal;
+    animation-direction: alternate;
+    transition: transform 10ms 1ms ease-out, box-shadow 1ms linear;
+    pointer-events: none;
+}
+
+#one48:hover {
+    transform: translate3d(2px, 4px, 7px);
+    box-shadow:-1px 0 grey,
+    -2px -1px grey,
+    -3px -2px grey,
+    -4px -3px grey,
+    -5px -4px grey,
+    -6px -5px 6px 2px rgba(80, 80, 80, 0.5);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-in-out;
     animation: rainbow1 5s infinite 1ms normal;
     animation-direction: alternate;
 }
@@ -100,61 +1041,6 @@ body {
 
 
 
-#one3 {
-    border: solid black 1px;
-    grid-area: one3;
-    animation: rainbow 5s  infinite 300ms normal;
-    animation-direction: alternate;
-}
-
-#one4 {
-    border: solid black 1px;
-    grid-area: one4;
-    animation: rainbow 5s  infinite 100ms normal;
-    animation-direction: alternate;
-}
-
-
-
-
-
-#one511 {
-    border: solid black 1px;
-    grid-area: one51;
-    animation: rainbow 5s  infinite 0.1ms normal;
-    animation-direction: alternate;
-
-
-    }
-
- #one51 {
-     transform: rotate(270deg);
-     background:transparent;
-     border:none;
-     transform-origin: 95% 180%;
-
-
-
-
- }
-#one511:hover {
-    transform: translate3d(-7px, 7px, 7px);
-    /*box-shadow: 10px -10px 20px 2px grey;*/
-    box-shadow:
-
-                 1px 0 grey,
-                 2px -1px grey,
-                 3px -2px grey,
-                 4px -3px grey,
-                 5px -4px grey,
-                 6px -5px grey,
-                 7px -6px grey,
-                 8px -7px  grey;
-
-    transition: transform 0.2s ease-out, box-shadow 0.2s  ease-in-out;
-    animation: rainbow1 5s  infinite 1ms normal;
-    animation-direction: alternate;
-}
 
 
 
@@ -166,176 +1052,18 @@ body {
 
 
 
-#one6 {
-    border: solid black 1px;
-    grid-area: one6;
-}
-#one7 {
-    border: solid black 1px;
-    grid-area: one7;
-}
-#one8 {
-    border: solid black 1px;
-    grid-area: one8;
-}
-#one9 {
-    border: solid black 1px;
-    grid-area: one9;
-}
-#one10 {
-    border: solid black 1px;
-    grid-area: one10;
-}
-#one11 {
-    border: solid black 1px;
-    grid-area: one11;
-}
-
-#one141 {
-    border: solid black 1px;
-    grid-area: one141;
-}
-#one141 span {
-    position: relative;
-    top: 5px;
-    left: 120px;
-    font-size: 40px;
-}
-
-#one211 {
-    border: solid black 1px;
-    grid-area: one211;
-}
-#one211 span {
-    position: relative;
-    top: 5px;
-    left: 50px;
-    font-size: 40px;}
 
 
-#one431 {
-    border: solid black 1px;
-    grid-area: one431;
-}
-#one431 span {
-    position: relative;
-    top: 5px;
-    left: 50px;
-    font-size: 40px;}
 
-#one12 {
-    border: solid black 1px;
-    grid-area: one12;
-}
-#one13 {
-    border: solid black 1px;
-    grid-area: one13;
-}
-#one16 {
-    border: solid black 1px;
-    grid-area: one16;
-}
-#one18 {
-    border: solid black 1px;
-    grid-area: one18;
-}
-#one19 {
-    border: solid black 1px;
-    grid-area: one19;
-}
-#one20 {
-    border: solid black 1px;
-    grid-area: one20;
-}
-#one23 {
-    border: solid black 1px;
-    grid-area: one23;
-}
-#one24 {
-    border: solid black 1px;
-    grid-area: one24;
-}
-#one25 {
-    border: solid black 1px;
-    grid-area: one25;
-}
-#one26 {
-    border: solid black 1px;
-    grid-area: one26;
-}
-#one27 {
-    border: solid black 1px;
-    grid-area: one27;
-}
-#one28 {
-    border: solid black 1px;
-    grid-area: one28;
-}
-#one30 {
-    border: solid black 1px;
-    grid-area: one30;
-}
-#one31 {
-    border: solid black 1px;
-    grid-area: one31;
-}
-#one32 {
-    border: solid black 1px;
-    grid-area: one32;
-}
-#one33 {
-    border: solid black 1px;
-    grid-area: one33;
-}
-#one34 {
-    border: solid black 1px;
-    grid-area: one34;
-}
-#one35 {
-    border: solid black 1px;
-    grid-area: one35;
-}
-#one36 {
-    border: solid black 1px;
-    grid-area: one36;
-}
-#one37 {
-    border: solid black 1px;
-    grid-area: one37;
-}
-#one38 {
-    border: solid black 1px;
-    grid-area: one38;
-}
-#one39 {
-    border: solid black 1px;
-    grid-area: one39;
-}
-#one40 {
-    border: solid black 1px;
-    grid-area: one40;
-}
-#one41 {
-    border: solid black 1px;
-    grid-area: one41;
-}
-#one42 {
-    border: solid black 1px;
-    grid-area: one42;
-}
-#one45 {
-    border: solid black 1px;
-    grid-area: one45;
-}
-#one46 {
-    border: solid black 1px;
-    grid-area: one46;
-}
-#one47 {
-    border: solid black 1px;
-    grid-area: one47;
-}
-#one48 {
-    border: solid black 1px;
-    grid-area: one48;
-}
+
+
+
+
+
+
+
+
+
+
+
+
