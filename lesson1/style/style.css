@@ -1,17 +1,76 @@
 
 
+/*.block {
+    background: rgba(56,42,35,1);
+
+    padding: 20px;
+    position: relative;
+
+    width: 100px;
+    height: 20px;
+}
+.block::after {
+    content: '';
+
+    border: 30px solid transparent;
+    border-left: 30px solid rgba(56,42,35,1);
+}*/
+
+.we .block {
+    display: inline-block;
+    float: left;
+}
 
 
-h1 {color:#eeffee}
-strong {color:red}
-p strong {color:blue}
-a strong {color: orange;
-    text-decoration: none}
+.block {
+    background: rgba(56,42,35,1);
+    position: relative;
+    width: 120px;
+    height: 50px;
+    color: wheat;
+    font-size: 12px;
+    margin: 30px;
+
+}
+
+.block  span {
+    padding-left: 3px;
+    padding-top: 9px;
+
+}
+
+.block::after {
+    content: '';
+    position: absolute;
+    right: -45px; top: 0;
+    border: 25px solid transparent;
+    border-left: 20px solid rgba(56,42,35,1);
+}
 
 
 
-p {
-    background: #fc3; /* Цвет фона */
-    border: 2px solid black;  /* Параметры рамки */
-    padding: 20px; /* Поля вокруг текста */
+
+
+#block1 {
+    border: 1px solid rgba(56,42,35,1);
+
+    /*padding: 20px;*/
+    position: relative;
+    width: 550px;
+    height: 80px;
+    font-size: 40px;
+
+}
+
+#block1::before, #block1::after {
+    content: '';
+    position: absolute;
+    left: 20px;
+    bottom: -20px;
+    border: 10px solid transparent;
+    border-top: 10px solid rgba(56,42,35,1);
+}
+#block1::after {
+    border-top: 10px solid white;
+    bottom: -19px;
 }
