@@ -1,0 +1,71 @@
+.icon {
+    display: inline-block;
+    background: url("../images/icons-social.png") no-repeat;
+    margin: 5px;
+
+
+}
+
+.icon.small {
+    width: 60px;       /*уменьшили картинки*/
+    height: 60px;
+    background-size: auto 120px;
+}
+
+
+
+
+
+
+
+.icon.small.ico-facebook {
+     background-position: 0 -60px;
+  }
+
+.icon.small.ico-twitter {
+    background-position: -60px -60px;
+}
+
+.icon.small.ico-google {
+    background-position: -120px -60px;
+}
+.icon.small.ico-instagram {
+    background-position: -180px -60px;
+}
+.icon.small.ico-youtube {
+    background-position: -240px -60px;
+}
+.icon.small.ico-in {
+    background-position: -300px -60px;
+}
+
+
+.icon.small.color {
+    background-position-y: 0;
+}
+
+.icon-span {
+    margin: 5px;}
+
+.icon-span .icon {
+    margin: 5px;
+    font-size: 0;;
+}
+.icon-span .icon {
+    margin: 0;
+
+}
+.icon-span .icon.small:last-child {
+    margin-left: -60px;
+}
+
+
+
+.icon-span .icon:last-child {
+   transition: opacity 0.3s linear;}
+
+.icon-span:hover  .icon:last-child {
+    opacity: 0;
+}
+
+

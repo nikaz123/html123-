@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+ <body>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 1000 1000" width="1000" height="1000">
+
+    <defs>
+        <linearGradient id="name" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="white">            </stop>
+
+            <stop offset="50%" stop-color="#636363">            </stop>
+            <stop offset="100%" stop-color="white">            </stop>
+
+
+        </linearGradient>
+
+
+        <radialGradient id="name2" cx="70%" cy="70%" r="50%"  >
+            <stop offset="0%" stop-color="#ccc">            </stop>
+
+            <stop offset="100%" stop-color="black">            </stop>
+
+        </radialGradient>
+
+        <path id="name4" d="M370,370 C505,349 462,511 689,475 " > </path>
+
+
+        <pattern id="name1" width="28" height="28" patternUnits="userSpaceOnUse">
+            <circle cx="7" cy="7" r="6" stroke="black" fill="url(#name2)"> </circle>
+            <circle cx="21" cy="21" r="6" stroke="black" fill="url(#name2)"> </circle>
+        </pattern>
+
+
+
+    </defs>
+
+
+
+   <path d="M10,10 h970
+         a 10 10 0 0 1 10 10
+            v970
+         a 10 10 0 0 1 -10 10
+            h-970
+         a 10 10 0 0 1 -10 -10
+            v -970
+         a 10 10 0 0 1 10 -10"
+          fill="url(#name)" stroke="black">
+    </path>
+
+
+
+
+
+
+    <symbol id="text">
+        <g class="title">
+            <text text-anchor="middle"
+                  x="150" y="23" dy="13" fill="url(#name)" stroke="black" font-size="30"  font-family="arial"
+                  lengthAdjust="spacingAndGlyphs">
+                 HOMEWORK
+            </text>
+
+        </g>
+    </symbol>
+
+    <use xlink:href="#text"/>
+
+
+
+
+    <rect x="40" y="40" width="900" height="910" fill="url(#name)" stroke="black"> </rect>
+
+    <rect x="40" y="40" width="900" height="910" fill="url(#name1)"  stroke="black"> </rect>
+
+        <path d="M250,215
+            h500
+         a 10 10 0 0 1 10 10
+            v400
+         a 10 10 0 0 1 -10 10
+            h-200
+            v50
+            h150
+            v20
+            h-400
+            v-20
+            h150
+            v-50
+            h-200
+         a 10 10 0 0 1 -10 -10
+            v -400
+         a 10 10 0 0 1 10 -10" stroke="black" fill="url(#name)">
+        </path>>
+
+
+   <rect x="270" y="240" width="460" height="370" fill="black" stroke="black"> </rect>
+
+    <path d="M270,240
+
+            h380
+
+         c -180,70 -350,150 -340,370
+
+            h-40
+            v-370
+            " stroke="black" fill="#4D4D4D">
+    </path>>
+
+
+
+
+    <text   font-size="50"  fill="white" stroke="white" font-family="arial" letter-spacing="1">
+    <textPath xlink:href="#name4">IT-Academy</textPath>
+    </text>
+
+
+
+
+
+  </body>
+</html>
