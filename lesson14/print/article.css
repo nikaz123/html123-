@@ -1,0 +1,32 @@
+/*@media print {
+
+  body {
+    margin:1cm 1.5cm 1cm 3cm;
+
+
+  }
+  .article {
+
+    width: 100%;
+    margin: 0;
+    font-family: serif;
+    font-size: 14pt;
+
+    article {
+      p {
+        text-indent: 1cm;
+        margin-bottom: 5mm;
+      }
+    }
+    footer {
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+    }
+
+  }
+
+
+}*/

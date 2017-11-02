@@ -1,0 +1,29 @@
+/*.article {
+  width: 40%;
+
+  header {
+    h1 {
+      float: left;
+    }
+    time {
+      float: right;
+    }
+  }
+
+  article {
+    clear: both;
+    p {
+      margin: 0;
+      text-indent: 1.5em;
+      text-align: justify;
+    }
+  }
+
+
+  footer {
+    a {
+      color: red;
+    }
+  }
+
+}*/

@@ -1,0 +1,243 @@
+body {
+  width: 1130px;
+  height: 100%;
+  margin: 0;
+}
+body .mainContent {
+  display: grid;
+  grid-auto-rows: 500px 700px 350px 200px 100px;
+  grid-auto-columns: 130px 1300px;
+  grid-template-areas: "part1 part2" "part1 part3" "part1 part4" "part1 part5" "part1 part6";
+}
+body #part1 {
+  grid-area: part1;
+  background: #382a23;
+}
+body #part1 #menu {
+  margin-top: 200px;
+  padding-left: 20px;
+}
+body #part1 #menu li {
+  list-style-type: none;
+}
+body #part1 #menu li a {
+  text-decoration: none;
+}
+body #part1 #menu li a span {
+  color: white;
+  font-size: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  position: relative;
+}
+body #part1 #data {
+  margin-top: 50px;
+  padding-left: 3px;
+}
+body #part1 #data p {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+body #part2 {
+  grid-area: part2;
+  background-image: url("images/wood.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+body #part2 h1 {
+  width: 600px;
+  height: 80px;
+  font-size: 50px;
+  padding-left: 700px;
+}
+body #part2 #block1 {
+  margin-left: 625px;
+  margin-top: 80px;
+  border: 1px solid #382a23;
+  padding: 20px;
+  padding-bottom: 55px;
+  position: relative;
+  width: 550px;
+  height: 80px;
+}
+body #part2 #block1:before,
+body #part2 #block1:after {
+  content: '';
+  position: absolute;
+  left: 20px;
+  bottom: -20px;
+  border: 10px solid transparent;
+  border-top: 10px solid #382a23;
+}
+body #part2 #block1:after {
+  border-top: 10px solid white;
+  bottom: -19px;
+}
+body #part2 #block1 span {
+  font-size: 40px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+body #part2 .we {
+  width: 1000px;
+  height: 80px;
+  margin-top: 20px;
+  margin-left: 570px;
+}
+body #part2 .we .block {
+  display: inline-block;
+  float: left;
+  background: #382a23;
+  position: relative;
+  width: 120px;
+  height: 50px;
+  color: wheat;
+  font-size: 12px;
+  margin: 30px;
+}
+body #part2 .we .block:after {
+  content: '';
+  position: absolute;
+  right: -45px;
+  top: 0;
+  border: 25px solid transparent;
+  border-left: 20px solid #382a23;
+}
+body #part2 .we .block span {
+  padding-left: 3px;
+  padding-top: 9px;
+  margin: 0;
+}
+body #part2 .we .block p {
+  padding-top: 20px;
+  color: #382a23;
+  margin: 0;
+}
+body #part3 {
+  grid-area: part3;
+  height: 700px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0), #ffffff), url("images/fon.jpg");
+}
+body #part3 h2 {
+  width: 600px;
+  height: 80px;
+  font-size: 30px;
+  padding-left: 500px;
+  margin-top: 70px;
+}
+body #part3 button {
+  width: 300px;
+  height: 200px;
+  background-color: #382a23;
+  border: none;
+  margin-top: 25px;
+  margin-left: 70px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+body #part3 button span {
+  color: wheat;
+}
+body #part4 {
+  grid-area: part4;
+  background-color: whitesmoke;
+}
+body #part4 h2 {
+  width: 600px;
+  height: 30px;
+  font-size: 30px;
+  padding-left: 500px;
+  margin-top: 5px;
+}
+body #part4 .carousel {
+  position: relative;
+  width: 1200px;
+  padding: 10px 40px;
+  height: 350px;
+}
+body #part4 .carousel img {
+  width: 320px;
+  height: 270px;
+  /* по умолчанию inline, в ряде браузеров это даст лишнее пространство вокруг элементов */
+  display: block;
+  margin-right: 40px;
+  margin-left: 40px;
+  border: 2px solid #382a23;
+}
+body #part4 .carousel .arrow {
+  position: absolute;
+  top: 60px;
+  padding: 0;
+  background: #382a23;
+  border: 1px solid wheat;
+  font-size: 24px;
+  line-height: 24px;
+  color: wheat;
+  display: block;
+}
+body #part4 .carousel .arrow:focus {
+  outline: none;
+}
+body #part4 .carousel .arrow:hover {
+  background: wheat;
+  color: #382a23;
+  cursor: pointer;
+}
+body #part4 .carousel .prev {
+  left: 7px;
+}
+body #part4 .carousel .next {
+  right: 7px;
+}
+body #part4 .carousel .gallery {
+  width: 1200px;
+  overflow: hidden;
+}
+body #part4 .carousel .gallery ul {
+  height: 320px;
+  width: 9999px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: margin-left 250ms;
+  /* remove white-space between inline-block'ed li */
+  /* http://davidwalsh.name/remove-whitespace-inline-block */
+  font-size: 0;
+}
+body #part4 .carousel .gallery ul li {
+  display: inline-block;
+}
+body #part5 {
+  grid-area: part5;
+  background-color: #382a23;
+}
+body #part6 {
+  grid-area: part6;
+  background-color: wheat;
+}
+body #part6 #footer {
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 60px;
+  margin-left: 200px;
+}
+body #part6 #footer li + li {
+  border-left: solid 1px #382a23;
+}
+body #part6 #footer li {
+  display: inline-block;
+}
+body #part6 #footer li a {
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+body #part6 #footer li a:hover {
+  background: #382a23;
+  cursor: pointer;
+}
+body #part6 #footer li a span {
+  color: #382a23;
+}
+body #part6 #footer li a span:hover {
+  color: wheat;
+}
