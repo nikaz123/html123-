@@ -5,7 +5,7 @@ body {
 
   width: 1130px;
   height: 100%;
-  margin: 0;
+  margin: auto;
 
 
 
@@ -14,7 +14,8 @@ body {
   grid-auto-rows: 500px 700px 350px 200px 100px;
   grid-auto-columns: 130px 1300px;
   grid-template-areas: "part1 part2" "part1 part3" "part1 part4" "part1 part5" "part1 part6";
-}
+
+  }
 
 #part1 {
   grid-area: part1;
@@ -247,6 +248,15 @@ body {
 #part5 {
   grid-area: part5;
   background-color: @color1;
+  h2 {
+    width: 600px;
+    height: 30px;
+    font-size: 25px;
+    padding-left: 300px;
+    margin-top: 5px;
+    color: @color2;
+
+  }
 }
 
 #part6 {

@@ -3,18 +3,24 @@ let userSurname = textData(`Введите фамилию`),
     userLastname = textData(`Введие отчество`),
     dayOfBirth = 0;
 
-;
 
-while (!(dayOfBirth > 1 && dayOfBirth < 32)) {
-    dayOfBirth = numberData(`Введите число рождения от 1 до 31`);
-
-}
-
-let Month = numberData(`Введите месяц рождения от 1 до 12`);
 let Year = 0;
 while (Year < 1900) {
     Year = numberData(`Введите год рождения`)
 }
+let Month = 0;
+while (!(Month>=1 && Month<=12)) {
+    Month = numberData(`Введите месяц рождения от 1 до 12`);
+}
+
+let badDayOfBirth = false;
+
+while (!(dayOfBirth > 1 && dayOfBirth < 32 &&  !badDayOfBirth  )) {
+    dayOfBirth = numberData(`Введите число рождения от 1 до 31`);
+    checkDate= new Date(Date.parse(Year+`-`+Month+`-`+dayOfBirth));
+  badDayOfBirth = (isNaN(Date.parse(Year+`-`+Month+`-`+dayOfBirth))||(checkDate.getDate()!==Number(dayOfBirth)) );}
+
+
 
 let gender = numberData(`Введите пол (1-муж или 2-жен)`),
 
