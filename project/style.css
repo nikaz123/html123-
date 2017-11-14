@@ -3,15 +3,15 @@ body {
   height: 100%;
   margin: auto;
 }
-body .mainContent {
-  display: grid;
-  grid-auto-rows: 500px 700px 350px 200px 100px;
-  grid-auto-columns: 130px 1300px;
-  grid-template-areas: "part1 part2" "part1 part3" "part1 part4" "part1 part5" "part1 part6";
-}
 body #part1 {
   grid-area: part1;
   background: #382a23;
+}
+body #part1 #logo img {
+  width: 100px;
+  height: 90px;
+  margin-left: 15px;
+  margin-top: 50px;
 }
 body #part1 #menu {
   margin-top: 200px;
@@ -119,7 +119,7 @@ body #part3 {
 body #part3 h2 {
   width: 600px;
   height: 80px;
-  font-size: 30px;
+  font-size: 40px;
   padding-left: 500px;
   margin-top: 70px;
 }
@@ -127,7 +127,7 @@ body #part3 button {
   width: 300px;
   height: 200px;
   background-color: #382a23;
-  border: none;
+  border: solid 2px wheat;
   margin-top: 25px;
   margin-left: 70px;
   margin-bottom: 50px;
@@ -135,6 +135,87 @@ body #part3 button {
 }
 body #part3 button span {
   color: wheat;
+  font-size: 20px;
+}
+body #part31 {
+  grid-area: part31;
+  height: 700px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0), #ffffff), url("images/fon.jpg");
+}
+body #part31 h2 {
+  width: 600px;
+  height: 80px;
+  font-size: 40px;
+  padding-left: 500px;
+  margin-top: 70px;
+}
+body #part31 .carousel {
+  position: relative;
+  width: 1200px;
+  padding: 10px 40px;
+  height: 350px;
+}
+body #part31 .carousel .carouselArticle {
+  width: 1155px;
+  height: 500px;
+  display: inline-block;
+  float: left;
+  margin-left: 4px;
+}
+body #part31 .carousel .carouselArticle img {
+  width: 320px;
+  height: 270px;
+  /* по умолчанию inline, в ряде браузеров это даст лишнее пространство вокруг элементов */
+  display: block;
+  margin-right: 40px;
+  margin-left: 40px;
+  border: 2px solid #382a23;
+  float: left;
+}
+body #part31 .carousel .carouselArticle span {
+  font-size: 22px;
+}
+body #part31 .carousel .arrow {
+  position: absolute;
+  top: 60px;
+  padding: 0;
+  background: #382a23;
+  border: 1px solid wheat;
+  font-size: 24px;
+  line-height: 24px;
+  color: wheat;
+  display: block;
+}
+body #part31 .carousel .arrow:focus {
+  outline: none;
+}
+body #part31 .carousel .arrow:hover {
+  background: wheat;
+  color: #382a23;
+  cursor: pointer;
+}
+body #part31 .carousel .prev {
+  left: 7px;
+}
+body #part31 .carousel .next {
+  right: 7px;
+}
+body #part31 .carousel .gallery {
+  width: 1200px;
+  overflow: hidden;
+}
+body #part31 .carousel .gallery ul {
+  height: 500px;
+  width: 9999px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: margin-left 250ms;
+  /* remove white-space between inline-block'ed li */
+  /* http://davidwalsh.name/remove-whitespace-inline-block */
+}
+body #part31 .carousel .gallery ul li {
+  display: inline-block;
 }
 body #part4 {
   grid-area: part4;
@@ -205,6 +286,22 @@ body #part4 .carousel .gallery ul {
 body #part4 .carousel .gallery ul li {
   display: inline-block;
 }
+body .spanCommon {
+  display: block;
+  color: wheat;
+  font-size: 20px;
+  width: 250px;
+  height: 35px;
+}
+body .bodyCommon {
+  width: 250px;
+  height: 100px;
+  border: solid 1px wheat;
+  display: inline-block;
+  margin-left: 35px;
+  margin-right: 35px;
+  float: left;
+}
 body #part5 {
   grid-area: part5;
   background-color: #382a23;
@@ -213,9 +310,117 @@ body #part5 h2 {
   width: 600px;
   height: 30px;
   font-size: 25px;
-  padding-left: 300px;
+  padding-left: 410px;
   margin-top: 5px;
   color: wheat;
+}
+body #part5 #gurantyblock {
+  width: 250px;
+  height: 100px;
+  border: solid 1px wheat;
+  display: inline-block;
+  margin-left: 35px;
+  margin-right: 35px;
+  float: left;
+}
+body #part5 #gurantyblock .logoback {
+  position: relative;
+  left: 75px;
+  top: -10px;
+}
+body #part5 #gurantyblock .logoback .checked {
+  position: relative;
+  left: 34px;
+}
+body #part5 #gurantyblock span {
+  display: block;
+  color: wheat;
+  font-size: 20px;
+  width: 250px;
+  height: 35px;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+body #part5 #money {
+  width: 250px;
+  height: 100px;
+  border: solid 1px wheat;
+  display: inline-block;
+  margin-left: 35px;
+  margin-right: 35px;
+  float: left;
+}
+body #part5 #money .logoback {
+  position: relative;
+  left: 75px;
+  top: -10px;
+}
+body #part5 #money .logoback .gear {
+  position: relative;
+  left: 34px;
+}
+body #part5 #money span {
+  display: block;
+  color: wheat;
+  font-size: 20px;
+  width: 250px;
+  height: 35px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+body #part5 #guranty {
+  width: 250px;
+  height: 100px;
+  border: solid 1px wheat;
+  display: inline-block;
+  margin-left: 35px;
+  margin-right: 35px;
+  float: left;
+}
+body #part5 #guranty .logoback {
+  position: relative;
+  left: 75px;
+  top: -10px;
+}
+body #part5 #guranty .logoback .pyramid {
+  position: relative;
+  left: 34px;
+}
+body #part5 #guranty span {
+  display: block;
+  color: wheat;
+  font-size: 20px;
+  width: 250px;
+  height: 35px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+body #part5 #work {
+  width: 250px;
+  height: 100px;
+  border: solid 1px wheat;
+  display: inline-block;
+  margin-left: 35px;
+  margin-right: 35px;
+  float: left;
+}
+body #part5 #work .logoback {
+  position: relative;
+  left: 75px;
+  top: -10px;
+}
+body #part5 #work .logoback .team {
+  position: relative;
+  left: 34px;
+}
+body #part5 #work span {
+  display: block;
+  color: wheat;
+  font-size: 20px;
+  width: 250px;
+  height: 35px;
+  margin-left: 3px;
+  margin-top: 5px;
 }
 body #part6 {
   grid-area: part6;

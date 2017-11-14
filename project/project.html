@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Title</title>
+    <link rel="stylesheet" href="mainGrid.css" >
     <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="sprites.css" >
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <script defer src="project.js"> </script>
 
 </head>
 <body>
-<!--<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="130 1550 1430 1750" width="1300" height="200">-->
+
 
 <div class="mainContent">
 
     <div id="part1">
+
+
+        <div id="logo">
+            <img src="logo1.png">
+        </div>
 
 
     <ul id="menu">
@@ -38,9 +45,9 @@
         <p> моб.тел.</p>
         <p>  +375296097014</p>
 
-        <a href="https://www.facebook.com/brshishovi/" target="_blank"><span>f</span></a>
+        <a href="https://www.facebook.com/brshishovi/" target="_blank" class="facebook-logo"></a>
 
-        <a href="https://www.instagram.com/brshishovi/" target="_blank"><span>i</span></a>
+        <a href="https://www.instagram.com/brshishovi/" target="_blank" class="instagram "></a>
 
    </div>
 
@@ -94,7 +101,7 @@
     <div id="part3">
     <h2> Что мы делаем </h2>
 
-        <button id="menu1"> <span>Кухни  </span> </button>
+        <button id="menu1" class="kitchen"> <span>Кухни  </span> </button>
         <button id="menu2">  <span>Предметы интерьера </span></button>
         <button id="menu3">  <span>Игрушки </span> </button>
         <button id="menu4">  <span>Аксессуары </span> </button>
@@ -140,12 +147,30 @@
 
         <h2> Творческая мастерская "Братья Шишовы" </h2>
 
-    <defs>
+        <div id="gurantyblock">
+          <div class="logoback"> <div class="checked"> </div> </div>
+            <span> 5 лет гарантии </span>
+        </div>
 
 
-    </defs>
+         <div id="money">
+             <div class="logoback"> <div class="gear"> </div> </div>
+             <span> Наличный и безналичный расчет </span>
+
+         </div>
 
 
+         <div id="guranty">
+             <div class="logoback"> <div class="pyramid"> </div> </div>
+             <span> Гарантия на всю продукцию </span>
+         </div>
+
+
+
+         <div id="work">
+             <div class="logoback"> <div class="team"> </div> </div>
+             <span> Собственное производство в Минске </span>
+         </div>
 
 
 
