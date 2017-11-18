@@ -133,7 +133,10 @@ body #part3 button {
   margin-bottom: 50px;
   margin-right: 50px;
 }
-body #part3 button span {
+body #part3 button a {
+  text-decoration: none;
+}
+body #part3 button a span {
   color: wheat;
   font-size: 20px;
 }
@@ -160,7 +163,7 @@ body #part31 .carousel .carouselArticle {
   height: 500px;
   display: inline-block;
   float: left;
-  margin-left: 4px;
+  margin-left: -5px;
 }
 body #part31 .carousel .carouselArticle img {
   width: 320px;
