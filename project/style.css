@@ -123,7 +123,33 @@ body #part3 h2 {
   padding-left: 500px;
   margin-top: 70px;
 }
-body #part3 button {
+body #part3 a {
+  text-decoration: none;
+}
+body #part3 a .buttonBorder {
+  width: 250px;
+  height: 100px;
+  border: solid 1px wheat;
+  display: inline-block;
+  margin-left: 16px;
+  margin-right: 35px;
+  float: left;
+}
+body #part3 a .buttonBorder .logoback {
+  position: relative;
+  left: 75px;
+  top: -20px;
+}
+body #part3 a .buttonBorder .logoback span {
+  display: block;
+  margin-left: 35px;
+}
+body #part3 a span {
+  color: wheat;
+  font-size: 20px;
+  display: block;
+}
+body #part3 a button {
   width: 300px;
   height: 200px;
   background-color: #382a23;
@@ -133,17 +159,15 @@ body #part3 button {
   margin-bottom: 50px;
   margin-right: 50px;
 }
-body #part3 button a {
-  text-decoration: none;
-}
-body #part3 button a span {
-  color: wheat;
-  font-size: 20px;
-}
 body #part31 {
   grid-area: part31;
   height: 700px;
   background: linear-gradient(0deg, rgba(255, 255, 255, 0), #ffffff), url("images/fon.jpg");
+}
+body #part31 input {
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
 }
 body #part31 h2 {
   width: 600px;
@@ -176,6 +200,7 @@ body #part31 .carousel .carouselArticle img {
   float: left;
 }
 body #part31 .carousel .carouselArticle span {
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 22px;
 }
 body #part31 .carousel .arrow {
@@ -204,7 +229,7 @@ body #part31 .carousel .next {
   right: 7px;
 }
 body #part31 .carousel .gallery {
-  width: 1200px;
+  width: 1184px;
   overflow: hidden;
 }
 body #part31 .carousel .gallery ul {
