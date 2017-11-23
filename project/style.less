@@ -7,8 +7,6 @@ body {
   height: 100%;
   margin: auto;
 
-
-
   #part1 {
     grid-area: part1;
     background: @color1;
@@ -16,9 +14,10 @@ body {
 
       img {
         width: 100px;
-        height: 90px;
+        height: 50px;
         margin-left: 15px;
         margin-top: 50px;
+
       }
     }
     #menu {
@@ -35,6 +34,7 @@ body {
             font-size: 20px;
             font-family: 'Open Sans Condensed', sans-serif;
             position: relative;
+
           }
         }
       }
@@ -42,11 +42,16 @@ body {
 
     #data {
       margin-top: 50px;
-      padding-left: 3px;
+      padding-left: 10px;
       p {
         color: white;
         font-family: 'Open Sans Condensed', sans-serif;
+        margin-top: 20px;
+        margin-left: 10px;
 
+      }
+      a {
+        margin-left: 10px;
       }
     }
   }
@@ -140,52 +145,52 @@ body {
       font-size: 40px;
       padding-left: 500px;
       margin-top: 70px;
-          }
-    a {
-        text-decoration: none;
-.buttonBorder{
-  width: 250px;
-  height: 100px;
-  border: solid 1px @color2;
-  display: inline-block;
-  margin-left: 16px;
-  margin-right: 35px;
-  float: left;
-
-  .logoback {
-    position: relative;
-    left: 75px;
-    top: -20px;
-    span{
-      display: block;
-      margin-left: 35px;
+      font-family: 'Oswald', sans-serif;
     }
-  }
-}
-        span {
-          color: @color2;
-          font-size: 20px;
-          display: block;
+    a {
+      text-decoration: none;
 
+      .buttonBorder {
+        width: 250px;
+        height: 100px;
+        border: solid 1px @color2;
+        display: inline-block;
+        margin-left: 16px;
+        margin-right: 35px;
+        float: left;
+
+        .logoback {
+          position: relative;
+          left: 75px;
+          top: -20px;
+          span {
+            display: block;
+            margin-left: 35px;
+
+          }
         }
+      }
+      span {
+        color: @color2;
+        font-size: 20px;
+        display: block;
 
-    button {
-      width: 300px;
-      height: 200px;
-      background-color: @color1;
-      border: solid 2px @color2;
-      margin-top: 25px;
-      margin-left: 70px;
-      margin-bottom: 50px;
-      margin-right: 50px;
+      }
+
+      button {
+        width: 300px;
+        height: 200px;
+        background-color: @color1;
+        border: solid 2px @color2;
+        margin-top: 25px;
+        margin-left: 70px;
+        margin-bottom: 50px;
+        margin-right: 50px;
 
       }
     }
 
-
-
-    }
-
+  }
 
   #part31 {
     grid-area: part31;
@@ -196,27 +201,21 @@ body {
       border-bottom: 1px solid black;
       background: transparent;
     }
-    textarea  #message {
+    textarea #message {
       border: none;
       border-bottom: 1px solid black;
       background: transparent;
       width: 250px;
     }
 
-    }
     h2 {
       width: 600px;
       height: 80px;
       font-size: 40px;
       padding-left: 500px;
       margin-top: 70px;
+      font-family: 'Oswald', sans-serif;
     }
-
-
-
-
-
-
 
     .carousel {
       position: relative;
@@ -224,34 +223,29 @@ body {
       padding: 10px 40px;
       height: 350px;
 
+      .carouselArticle {
+        width: 1155px;
+        height: 500px;
+        display: inline-block;
+        float: left;
+        margin-left: -5px;
+        img {
+          width: 320px;
+          height: 270px;
+          /* по умолчанию inline, в ряде браузеров это даст лишнее пространство вокруг элементов */
+          display: block;
+          margin-right: 40px;
+          margin-left: 40px;
+          border: 2px solid @color1;
+          float: left;
 
-.carouselArticle {
-  width: 1155px;
-  height: 500px;
-  display: inline-block;
-  float: left;
-  margin-left: -5px;
-  img {
-    width: 320px;
-    height: 270px;
-    /* по умолчанию inline, в ряде браузеров это даст лишнее пространство вокруг элементов */
-    display: block;
-    margin-right: 40px;
-    margin-left: 40px;
-    border: 2px solid @color1;
-    float: left;
+        }
+        span {
+          font-family: 'Open Sans Condensed', sans-serif;
+          font-size: 22px;
+        }
 
-  }
-  span {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 22px;
-
-  }
-
-
-
-}
-
+      }
       .arrow {
         position: absolute;
         top: 60px;
@@ -294,26 +288,17 @@ body {
           /* remove white-space between inline-block'ed li */
           /* http://davidwalsh.name/remove-whitespace-inline-block */
 
-
           li {
             display: inline-block;
 
-
-
-            }
           }
-
         }
 
       }
 
     }
 
-
-
-
-
-
+  }
 
   #part4 {
     grid-area: part4;
@@ -398,8 +383,6 @@ body {
     }
   }
 
-
-
   .spanCommon {
     display: block;
     color: @color2;
@@ -417,8 +400,6 @@ body {
     margin-right: 35px;
     float: left;
   }
-
-
 
   #part5 {
     grid-area: part5;
