@@ -164,6 +164,7 @@ body #part3 a button {
   margin-left: 70px;
   margin-bottom: 50px;
   margin-right: 50px;
+  cursor: pointer;
 }
 body #part31 {
   grid-area: part31;
@@ -494,4 +495,15 @@ body #part6 #footer li a span {
 }
 body #part6 #footer li a span:hover {
   color: wheat;
+}
+@media screen and (max-width: 400px) {
+  body .mainContent {
+    display: grid;
+    grid-auto-rows: 500px 700px 350px 0px 100px;
+    grid-auto-columns: 130px 1300px;
+    grid-template-areas: "part1 part2" "part1 part3" "part1 part4" "part1 part5" "part1 part6";
+  }
+  body #part5 {
+    display: none;
+  }
 }
