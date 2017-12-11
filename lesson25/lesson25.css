@@ -1,0 +1,27 @@
+body, html {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+/*#buttons button {*/
+    /*background: #ddd;*/
+/*}*/
+/*#buttons button.active {*/
+    /*background: green;*/
+/*}*/
+
+
+.content-with-tabs .tabs button {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+
+}
+.content-with-tabs.content .contentItem {
+    width: 100%;
+    height: 500px;
+
+}
+

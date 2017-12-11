@@ -1,0 +1,69 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+body .mainContent {
+  display: grid;
+  grid-auto-rows: 200px 200px 200px 300px;
+  grid-auto-columns: 100%;
+  grid-template-areas: "part1" "part2" "part3" "part4";
+}
+body #part1 {
+  grid-area: part1;
+}
+body #part1 h1 {
+  font-size: 16px;
+}
+body #part1 li {
+  font-size: 14px;
+  color: #0080FF;
+}
+body #part2 {
+  grid-area: part2;
+}
+body h1 {
+  font-size: 16px;
+}
+body li {
+  font-size: 14px;
+  color: #0080FF;
+}
+body #part3 {
+  grid-area: part3;
+}
+body #part3 table {
+  width: 100%;
+  height: 150px;
+  border-collapse: collapse;
+}
+body #part3 table thead th {
+  text-align: left;
+  padding: 10px 0;
+}
+body #part3 table tbody tr {
+  border-top: solid 1px;
+  border-color: black;
+}
+body #part3 table tbody tr span {
+  margin-left: 10px;
+}
+body #part4 {
+  grid-area: part4;
+}
+body #part4 table {
+  width: 100%;
+  height: 300px;
+  border-collapse: collapse;
+}
+body #part4 table thead th {
+  text-align: left;
+  padding: 10px 0;
+}
+body #part4 table tbody tr {
+  border-top: solid 1px;
+  border-color: black;
+}
+body #part4 table tbody tr span {
+  margin-left: 10px;
+}

@@ -1,0 +1,11 @@
+@media screen and (max-width: 400px) {
+  body .mainContent {
+    display: grid;
+    grid-auto-rows: 500px 700px 0px 100px;
+    grid-auto-columns: 160px 1fr;
+    grid-template-areas: "part1 part2" "part1 part31" "part1 part5" "part1 part6";
+  }
+  body #part5 {
+    display: none;
+  }
+}

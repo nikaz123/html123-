@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="//code.jquery.com/jquery-latest.js"></script>
+
+<script>
+
+    $('img').width(320).height(270).hover(function(){
+
+            $(this).stop().animate({width: 500, height: 500});
+
+        },
+
+        function(){
+
+            $(this).stop().animate({width: 320, heigth: 270});
+
+        });
+
+</script>
+
+
+
+</body>
+</html>
+
+font-family: 'Oswald', sans-serif;

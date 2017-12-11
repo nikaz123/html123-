@@ -1,0 +1,92 @@
+.catering, .bedside-table, .kitchen, .sound-system, .hand-bag, .rocking-horse, .team, .pyramid, .gear, .checked, .vk-social-logotype, .facebook-logo, .instagram {
+	background: url(sprites.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+.catering{
+	background-position: -56px -109px ;
+	width: 32px;
+	height: 32px;
+}
+
+.bedside-table{
+	background-position: -11px -110px ;
+	width: 32px;
+	height: 32px;
+}
+
+.kitchen{
+	background-position: -156px -108px ;
+	width: 32px;
+	height: 32px;
+}
+
+.sound-system{
+	background-position: -108px -110px ;
+	width: 32px;
+	height: 32px;
+}
+
+.hand-bag{
+	background-position: -210px -10px ;
+	width: 32px;
+	height: 32px;
+}
+
+.rocking-horse{
+	background-position: -156px -56px ;
+	width: 32px;
+	height: 32px;
+}
+
+.team{
+	background-position: -106px -56px ;
+	width: 32px;
+	height: 32px;
+}
+
+.pyramid{
+	background-position: -58px -56px ;
+	width: 32px;
+	height: 32px;
+}
+
+.gear{
+	background-position: -11px -57px ;
+	width: 32px;
+	height: 32px;
+}
+
+.checked{
+	background-position: -158px -8px ;
+	width: 32px;
+	height: 32px;
+
+}
+
+.vk-social-logotype{
+	background-position: -105px -10px ;
+	width: 32px;
+	height: 32px;
+}
+
+.facebook-logo{
+	background-position: -13px -8px ;
+	width: 32px;
+	height: 32px;
+}
+
+.instagram{
+	background-position: -59px -8px ;
+	width: 32px;
+	height: 32px;
+}
+
+.logoback {
+	width: 100px;
+	height: 36px;
+	background-color: rgba(56, 42, 35, 1);
+	display: inline-block;
+}
+

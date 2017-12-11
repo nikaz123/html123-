@@ -1,0 +1,96 @@
+
+body {
+
+  width: 100%;
+  height: 100%;
+  margin: auto;
+
+  .mainContent {
+    display: grid;
+    grid-auto-rows: 200px 200px 200px 300px;
+    grid-auto-columns: 100%;
+    grid-template-areas: "part1" "part2" "part3" "part4";
+
+  }
+  #part1 {
+    grid-area: part1;
+
+
+    h1 {
+      font-size: 16px;
+    }
+    li {
+      font-size: 14px;
+      color: #0080FF;
+    }
+
+  }
+
+  #part2 {
+    grid-area: part2;
+
+  }
+  h1 {
+    font-size: 16px;
+  }
+  li {
+    font-size: 14px;
+    color: #0080FF;
+  }
+
+  #part3 {
+    grid-area: part3;
+
+
+    table {
+      width: 100%;
+      height: 150px;
+      border-collapse: collapse;
+
+      thead {
+        th {
+          text-align: left;
+          padding: 10px 0;
+        }
+      }
+      tbody {
+
+        tr {
+          border-top: solid 1px;
+          border-color: black;
+          span {
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  #part4 {
+    grid-area: part4;
+
+
+    table {
+      width: 100%;
+      height: 300px;
+      border-collapse: collapse;
+
+      thead {
+        th {
+          text-align: left;
+          padding: 10px 0;
+        }
+      }
+      tbody {
+
+        tr {
+          border-top: solid 1px;
+          border-color: black;
+          span {
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
