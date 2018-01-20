@@ -1,0 +1,23 @@
+body #add,
+body #enter {
+  width: 1200px;
+  height: 500px;
+  border: 1px solid black;
+}
+body #add input,
+body #enter input {
+  margin-top: 25px;
+  margin-left: 50px;
+}
+body #add #printBlock1 div,
+body #enter #printBlock1 div {
+  border: 1px solid black;
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+body #add #printBlock1 p,
+body #enter #printBlock1 p {
+  border: 1px solid black;
+  width: 20px;
+}
