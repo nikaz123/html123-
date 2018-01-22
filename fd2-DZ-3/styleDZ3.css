@@ -9,15 +9,34 @@ body #enter input {
   margin-top: 25px;
   margin-left: 50px;
 }
-body #add #printBlock1 div,
-body #enter #printBlock1 div {
+body #printBlock1 div {
+  display: inline-block;
   border: 1px solid black;
   width: 100px;
   margin-top: 10px;
   margin-left: 10px;
+  background-color: black;
+  color: white;
 }
-body #add #printBlock1 p,
-body #enter #printBlock1 p {
+body #printBlock1 p {
+  display: inline-block;
   border: 1px solid black;
   width: 20px;
+  padding-left: 5px;
+  background-color: black;
+  color: white;
+}
+body #enter #printBlock2 p {
+  border: 1px solid #ff24d2;
+  width: 150px;
+}
+body #enter #autocompleteResult {
+  background-color: #42fff3;
+  width: 172px;
+  height: auto;
+  margin-left: 50px;
+}
+body #enter #autocompleteResult p {
+  margin: 0;
+  border: 1px solid cadetblue;
 }

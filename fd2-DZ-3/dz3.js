@@ -22,7 +22,7 @@
         setTag.add(val);
         printTag(setTag);
 
-        editInput.value=``; ////  ОЧищается поле ввода текста
+        editInput.value = ``; ////  ОЧищается поле ввода текста
     }
 
 
@@ -47,8 +47,6 @@
             htmlElementP.textContent = `x`;
 
 
-            ////    htmlElementP.style.float = `left`;
-
             htmlElementDiv.textContent = item;
 
             printBlock1.appendChild(htmlElementDiv);
@@ -65,30 +63,21 @@
     printBlock1.onclick = function (event) {
         let target = event.target;
 
-       console.log(target.getAttribute(`id`));
+        console.log(target.getAttribute(`id`));
 
         if (target.tagName === `P`)  ////отфильтровываем нажатие только на р
 
             setTag.delete(target.getAttribute(`id`));
 
-             printTag(setTag);
+        printTag(setTag);
     };
-
-
-
-
-
-
-
-
-
 
 
     autocomplete.addEventListener("keyup", function () {
 
         if (!autocomplete.value) {
 
-            autocomplete_result.innerHTML = "";
+            autocompleteResult.innerHTML = "";
 
             return;
 
@@ -98,48 +87,88 @@
 
         let b = [];
 
-        for (let item of Array.from(setTag)) {
+
+        for (let item of Array.from(new Set([...setTag].filter(x => !setTag2.has(x))))) {
 
 
             if (a.test(item)) b.push(item);
 
         }
 
-        autocomplete_result.innerHTML = b.join("<br>");
+        autocompleteResult.innerHTML = '';
 
+        b.forEach(function (item) {
+
+
+            let htmlElementP = document.createElement("p");
+
+            htmlElementP.setAttribute("id", item);
+
+
+            htmlElementP.textContent = item;
+
+            autocompleteResult.appendChild(htmlElementP);
+
+        })
     });
 
 
-    let setTag2 = new Set();
+        function selectTag(event) {
 
-    function addTag2() {
-        let editInput2 = document.getElementById("autocomplete");
-        let val2 = editInput2.value;
-        setTag2.add(val2);
-        printTag2(setTag2);
+            let target = event.target;
 
-    }
+            let editInput2 = document.getElementById("autocomplete");
+
+            editInput2.value = ``;
 
 
-    function printTag2(pSet) {
-        let printBlock2 = document.getElementById("printBlock2");
+            if (target.tagName === `P`) {
 
-        printBlock2.innerHTML = '';
+                let val = target.getAttribute(`id`);
+
+                setTag2.add(val);
+
+                autocompleteResult.innerHTML = '';
 
 
-        for (let item of Array.from(setTag2).sort()) {
+                printTag2(setTag2);
 
-            let htmlElementP2 = document.createElement("p");
 
-            htmlElementP2.textContent = item;
+            }
+        }
 
-            printBlock2.appendChild(htmlElementP2);
+
+        let setTag2 = new Set();
+
+        function addTag2() {
+            let editInput2 = document.getElementById("autocomplete");
+            let val2 = editInput2.value;
+            setTag2.add(val2);
+            printTag2(setTag2);
 
         }
 
-    }
 
-    document.getElementById("button2").addEventListener("click", addTag2);
+        function printTag2(pSet) {
+            let printBlock2 = document.getElementById("printBlock2");
+
+            printBlock2.innerHTML = '';
 
 
-}());
+            for (let item of Array.from(setTag2).sort()) {
+
+                let htmlElementP2 = document.createElement("p");
+
+                htmlElementP2.textContent = item;
+
+                printBlock2.appendChild(htmlElementP2);
+
+            }
+
+        }
+
+        document.getElementById("button2").addEventListener("click", addTag2);
+        document.getElementById("autocompleteResult").addEventListener("click", selectTag);
+
+
+    }());
