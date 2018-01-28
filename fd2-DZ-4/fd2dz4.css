@@ -1,0 +1,107 @@
+body #fieldGame {
+  width: 500px;
+  height: 1000px;
+  border: 3px solid #f54c31;
+  float: left;
+}
+body #fieldGame h1 {
+  margin-left: 200px;
+  margin-top: 25px;
+}
+body #fieldGame #name1 {
+  margin: 10px;
+}
+body #fieldGame #name2 {
+  margin: 10px;
+}
+body #fieldGame #trumpSeen {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  border: 1px solid #7f44f5;
+  margin-left: 170px;
+  margin-top: 50px;
+}
+body #fieldGame #trumpSeen p {
+  margin-left: 20px;
+  margin-top: 50px;
+  font-size: 30px;
+  color: red;
+}
+body #fieldGame #trumpButton {
+  margin-left: 180px;
+  margin-top: 25px;
+  background-color: #f69a29;
+  color: black;
+  height: 30px;
+  border: 3px solid #f5e535;
+}
+body #fieldGame #eventGame {
+  margin-left: 80px;
+  margin-top: 250px;
+  width: 300px;
+  height: 70px;
+  font-size: 30px;
+  background-color: #00ee00;
+  border: 3px solid #289a1b;
+  color: black;
+}
+body #fieldGame #button {
+  margin-left: 200px;
+  margin-top: 250px;
+  background-color: #42fff3;
+  border: 3px solid #34cabe;
+  color: black;
+}
+body #results #namesPlayers1 p {
+  margin-left: 100px;
+  width: 150px;
+  border: 1px solid #000000;
+}
+body #results #namesPlayers2 p {
+  margin-left: 0px;
+  width: 150px;
+  border: 1px solid #000000;
+}
+body #results #gameSteps {
+  margin-left: 100px;
+  margin-top: 50px;
+  border: 1px solid #34cabe;
+  width: 300px;
+  height: 700px;
+}
+body #results #gameSteps p {
+  border: 1px solid #000000;
+  margin: 5px;
+}
+#results {
+  width: 1000px;
+  height: 1000px;
+  display: inline-block;
+  border: 3px solid #55c5e9;
+}
+#results h1 {
+  margin-left: 400px;
+  margin-top: 25px;
+}
+#results #trumpOfGame p {
+  margin-left: 200px;
+  font-size: 30px;
+}
+#results #namesPlayers1 {
+  float: left;
+}
+#results #namesPlayers1 p {
+  width: 300px;
+  height: 20px;
+  border: 1px solid #f54c31;
+  margin-left: 25px;
+}
+#results #namesPlayers2 {
+  display: inline-block;
+}
+#results #namesPlayers2 p {
+  width: 300px;
+  height: 20px;
+  border: 1px solid #f54c31;
+}
