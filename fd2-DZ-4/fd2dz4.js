@@ -82,14 +82,18 @@
 
 
         for (let i = 0; i < randomCopyDeck.length; i = i + 2) {   /// половина колоды
-            hand1.push(randomCopyDeck[i])
+            hand1.push(randomCopyDeck[i]);
         }
+
+        hand1.reverse();
 
         console.log(hand1);
 
         for (let i = 1; i < randomCopyDeck.length; i = i + 2) {   /// вторая половина колоды
-            hand2.push(randomCopyDeck[i])
+            hand2.push(randomCopyDeck[i]);
         }
+
+        hand2.reverse();
 
         console.log(hand2);
 
@@ -140,6 +144,7 @@
     document.getElementById("eventGame").addEventListener("click", eventGame);
 
     function eventGame () {
+
         let stepuserScore1 = hand1[gameStep].value;  ///
         let stepuserScore2 = hand2[gameStep].value;
 
