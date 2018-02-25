@@ -1,0 +1,29 @@
+body #box table {
+  border-collapse: collapse;
+  width: 1000px;
+  height: auto;
+  border: 1px solid black;
+  background-color: #bababa;
+  margin: 0 auto;
+}
+body #box table thead tr {
+  width: 1000px;
+  height: 50px;
+}
+body #box table thead tr td {
+  border: 1px solid black;
+}
+body #box table tbody tr {
+  width: 1000px;
+  height: 50px;
+}
+body #box table tbody tr td {
+  border: 1px solid black;
+}
+body #addField {
+  margin-left: 450px;
+  margin-top: 25px ;
+}
+body #addField input {
+  width: 180px;
+}
