@@ -1,0 +1,8 @@
+{
+  "name": "fd2-project",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack-cli": "^2.0.10"
+  }
+}

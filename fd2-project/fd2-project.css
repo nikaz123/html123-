@@ -1,0 +1,43 @@
+body {
+  width: auto;
+  height: 1300px;
+  background-color: #bababa;
+}
+body #header {
+  width: 1000px;
+  height: 150px;
+  margin: 0 auto;
+}
+body #header input {
+  width: 333.33333333px;
+  height: 150px;
+  border: none;
+  background-color: green;
+  font-size: 40px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+}
+body #centerPart {
+  width: 1000px;
+  height: 1000px;
+  background-color: white;
+  margin: 0 auto;
+}
+body #centerPart #fieldProfile {
+  width: 333px;
+  height: 500px;
+  border: 1px solid #289a1b;
+  background-color: #b7f6cc;
+  font-size: 25px;
+  color: black;
+  text-decoration: underline;
+}
+body #centerPart #fieldProfile p {
+  margin-left: 10px;
+}
+body #footer {
+  width: 1000px;
+  height: 150px;
+  background-color: green;
+  margin: 0 auto;
+}
