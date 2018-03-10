@@ -1,7 +1,9 @@
 
 
-import Profile from  "./class/profile";
+import Profile from "./class/Profile";
 
+
+import Journal from "./class/Journal";
 
 
 (function () {
@@ -44,15 +46,8 @@ import Profile from  "./class/profile";
 
     let myProfile = new Profile();
 
-    myProfile.data.name = `Veronika`;
-    myProfile.data.gender = `женский`;
-    myProfile.data.dateOfBirth = `29.04.1981`;
-    myProfile.data.height = `75 кг`;
-    myProfile.data.weght = `165 см`;
-    myProfile.data.waist = `80 см`;
-    myProfile.data.hipsize =`75 см`;
-    myProfile.data.breastSize = `100 см`;
-    myProfile.data.calories = `1100 ккал`;
+     let myJournal = new Journal();
+
 
 
     document.getElementById("b1").addEventListener("click", drawProfile);
