@@ -1,44 +1,39 @@
-
-
 import Profile from "./class/Profile";
-
-
 import Journal from "./class/Journal";
 
 
 (function () {
     `use strict`;
 
+//вешаем обработчики событий на кнопки
 
-    let field1 = document.getElementById("header");
-
-    let btn1 = document.createElement("input");
-    btn1.id = 'b1';
-    btn1.type = 'button';
-    btn1.value = 'Профиль';
-    ////btn1.setAttribute('click', 'obj.HandleClick1();');
+    document.getElementById("b1").addEventListener("click", drawProfile);
 
 
-    let btn2 = document.createElement("input");
-    btn2.id = 'b2';
-    btn2.type = 'button';
-    btn2.value = 'Журнал';
-    btn2.setAttribute('click', 'obj.HandleClick1();');
+
+    /*document.getElementById("b2").addEventListener("click", );
+    document.getElementById("b3").addEventListener("click", );
+    document.getElementById("b4").addEventListener("click", );
+    document.getElementById("b5").addEventListener("click", );
+    document.getElementById("b6").addEventListener("click", );*/
 
 
-    let btn3 = document.createElement("input");
-    btn3.id = 'b3';
-    btn3.type = 'button';
-    btn3.value = 'Настройки';
-    btn3.setAttribute('click', 'obj.HandleClick1();');
 
-
-    field1.appendChild(btn1);
-
-    field1.appendChild(btn2);
-
-    field1.appendChild(btn3);
-
+ let myDate=document.getElementById('currentDate');
+ let myTime = new Date();
+    let weekday=new Array(7);
+    weekday[0]="Воскресенье";
+    weekday[1]="Понедельник";
+    weekday[2]="Вторник";
+    weekday[3]="Среда";
+    weekday[4]="Четверг";
+    weekday[5]="Пятница";
+    weekday[6]="Суббота";
+    document.write("Сегодня " + weekday[myTime.getDay()]);
+    let day=d.getDate();
+    let month=d.getMonth() + 1;
+    let year=d.getFullYear();
+    document.write(day + "." + month + "." + year);
 
 
 
@@ -50,29 +45,27 @@ import Journal from "./class/Journal";
 
 
 
-    document.getElementById("b1").addEventListener("click", drawProfile);
 
     function drawProfile() {
 
 
+
         let fieldProfileNew = document.getElementById("centerPart");
 
-
+        if (document.getElementById("fieldProfile")) {fieldProfileNew.innerHTML = '';
+            ; return;}
 
         let fieldProfile = document.createElement('div');
         fieldProfile.id = `fieldProfile`;
-
 
         fieldProfileNew.innerHTML = '';
 
         fieldProfileNew.appendChild(fieldProfile);
 
 
-
         let p1Profile = document.createElement("p");
         p1Profile.textContent =`Имя` + `  ` +  myProfile.data.name;
         fieldProfile.appendChild(p1Profile);
-
 
         let p2Profile = document.createElement("p");
         p2Profile.textContent = `Пол` + `  `+myProfile.data.gender;
@@ -106,8 +99,6 @@ import Journal from "./class/Journal";
         let p9Profile = document.createElement("p");
         p9Profile.textContent =`Суточная норма ` + `  ` + myProfile.data.calories;
         fieldProfile.appendChild(p9Profile);
-
-
     }
 
 

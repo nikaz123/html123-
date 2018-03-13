@@ -1,7 +1,9 @@
 {
   "name": "fd2-project",
   "version": "0.0.1",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.16.2"
+  },
   "devDependencies": {
     "webpack-cli": "^2.0.10"
   }

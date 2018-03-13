@@ -3,18 +3,27 @@ body {
   height: 1300px;
   background-color: #bababa;
 }
-body #header {
+body #topPart {
   width: 1000px;
   height: 150px;
   margin: 0 auto;
+  padding: 0;
 }
-body #header input {
+body #topPart button {
+  float: left;
   width: 333.33333333px;
   height: 150px;
   border: none;
   background-color: green;
   font-size: 40px;
   font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  padding: 0 0;
+}
+body #topPart button i .fa {
+  width: 40px;
+  height: 40px;
+  text-align: center;
   color: white;
 }
 body #centerPart {
@@ -35,9 +44,26 @@ body #centerPart #fieldProfile {
 body #centerPart #fieldProfile p {
   margin-left: 10px;
 }
-body #footer {
+body #bottomPart {
   width: 1000px;
   height: 150px;
   background-color: green;
   margin: 0 auto;
+}
+body #bottomPart button {
+  float: left;
+  width: 333.33333333px;
+  height: 150px;
+  border: none;
+  background-color: green;
+  font-size: 40px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  padding: 0 0;
+}
+body #bottomPart button i .fa {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: white;
 }
